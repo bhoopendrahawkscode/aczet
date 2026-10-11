@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" width="200" height="160">
+  <defs>
+    <linearGradient id="labelPrinterDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="labelRollGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <filter id="labelShadow" x="-10%" y="-10%" width="130%" height="140%">
+      <feDropShadow dx="3" dy="6" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#labelShadow)">
+    <!-- Main Shell Body (Compact Desktop Dark Chassis) -->
+    <path d="M 50,45 C 50,32 120,32 135,42 L 150,85 C 153,95 150,118 142,126 L 45,126 C 36,122 34,100 36,85 Z" fill="url(#labelPrinterDark)"/>
+
+    <!-- Clear / Tinted Top Clamshell Window -->
+    <path d="M 60,42 C 60,35 110,35 125,42 C 130,46 135,62 135,72 C 115,74 70,74 55,70 Z" fill="#475569" stroke="#64748b" stroke-width="1.2" opacity="0.8"/>
+    <!-- Internal roll visible inside window -->
+    <ellipse cx="95" cy="54" rx="20" ry="10" fill="#cbd5e1" opacity="0.6"/>
+
+    <!-- Front Dispenser Slot -->
+    <rect x="42" y="86" width="98" height="6" rx="2" fill="#0f172a" stroke="#475569" stroke-width="1"/>
+
+    <!-- Dispensed Label Strip Coming Out Forward -->
+    <path d="M 46,90 L 22,128 L 65,138 L 84,90 Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <!-- Barcode printed on dispensed label -->
+    <line x1="28" y1="110" x2="52" y2="116" stroke="#0f172a" stroke-width="3"/>
+    <line x1="29" y1="114" x2="54" y2="120" stroke="#0f172a" stroke-width="1.5"/>
+    <line x1="31" y1="118" x2="56" y2="124" stroke="#0f172a" stroke-width="4"/>
+    <line x1="33" y1="122" x2="58" y2="128" stroke="#0f172a" stroke-width="2"/>
+    <text x="44" y="133" font-family="'Courier New', monospace" font-size="4" fill="#0f172a">CLP-04</text>
+
+    <!-- Side Label Roll Stand on Desk -->
+    <ellipse cx="162" cy="115" rx="14" ry="20" fill="url(#labelRollGrad)" stroke="#cbd5e1" stroke-width="1.2"/>
+    <ellipse cx="162" cy="115" rx="5" ry="7" fill="#64748b"/>
+    <path d="M 148,110 C 144,106 142,100 138,94" stroke="#e2e8f0" stroke-width="3" fill="none"/>
+
+    <!-- Control Buttons and Status Indicators -->
+    <circle cx="132" cy="100" r="3" fill="#00829B"/>
+    <circle cx="132" cy="110" r="2.5" fill="#22c55e"/>
+
+    <!-- Aczet Branding badge -->
+    <text x="90" y="106" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#00829B">aczet</text>
+    <text x="90" y="114" font-family="Arial, sans-serif" font-size="4.5" fill="#94a3b8">CLP 04</text>
+  </g>
+</svg>

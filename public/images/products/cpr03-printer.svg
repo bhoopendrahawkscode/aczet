@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" width="200" height="160">
+  <defs>
+    <linearGradient id="printerBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="60%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="printerBevel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+    <filter id="printerShadow" x="-10%" y="-10%" width="130%" height="140%">
+      <feDropShadow dx="3" dy="7" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#printerShadow)">
+    <!-- Base Chassis -->
+    <path d="M 45,45 C 55,30 145,28 155,42 C 168,55 162,118 152,130 C 142,142 58,144 48,132 C 38,120 35,60 45,45 Z" fill="url(#printerBody)"/>
+    <path d="M 48,132 C 58,144 142,142 152,130 L 152,134 C 142,146 58,148 48,136 Z" fill="url(#printerBevel)"/>
+
+    <!-- Paper Roll Well Top Cover -->
+    <ellipse cx="100" cy="52" rx="42" ry="22" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1.5"/>
+    <ellipse cx="100" cy="50" rx="36" ry="18" fill="#f1f5f9"/>
+
+    <!-- Printed Paper Ticket / Roll emerging -->
+    <path d="M 75,50 L 73,18 L 127,18 L 125,50 Z" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <!-- Perforated Tear Edge -->
+    <line x1="73" y1="18" x2="127" y2="18" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2,2"/>
+    <!-- Printed Text Lines on Paper -->
+    <line x1="80" y1="24" x2="120" y2="24" stroke="#475569" stroke-width="1.5"/>
+    <line x1="80" y1="29" x2="114" y2="29" stroke="#64748b" stroke-width="1.2"/>
+    <line x1="80" y1="34" x2="122" y2="34" stroke="#64748b" stroke-width="1.2"/>
+    <line x1="80" y1="39" x2="105" y2="39" stroke="#00829B" stroke-width="1.2"/>
+
+    <!-- Front Sloped Control Console -->
+    <path d="M 60,82 L 140,82 L 146,122 L 54,122 Z" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+
+    <!-- LCD Display Screen -->
+    <rect x="68" y="88" width="64" height="15" rx="2" fill="#00829B" stroke="#005a6e" stroke-width="1"/>
+    <text x="100" y="99" font-family="'Courier New', monospace" font-size="7.5" font-weight="bold" fill="#ffffff" text-anchor="middle">CPR-03 READY</text>
+
+    <!-- Keypad Buttons -->
+    <circle cx="72" cy="112" r="3.5" fill="#3b82f6"/>
+    <circle cx="83" cy="112" r="3.5" fill="#e2e8f0" stroke="#94a3b8"/>
+    <circle cx="94" cy="112" r="3.5" fill="#e2e8f0" stroke="#94a3b8"/>
+    <circle cx="106" cy="112" r="3.5" fill="#e2e8f0" stroke="#94a3b8"/>
+    <circle cx="118" cy="112" r="3.5" fill="#e2e8f0" stroke="#94a3b8"/>
+    <circle cx="129" cy="112" r="3.5" fill="#10b981"/>
+
+    <!-- Status LEDs -->
+    <circle cx="138" cy="89" r="1.5" fill="#22c55e"/>
+    <circle cx="138" cy="94" r="1.5" fill="#f59e0b"/>
+
+    <!-- Aczet Logo on body -->
+    <text x="100" y="74" font-family="Arial, sans-serif" font-size="6.5" font-weight="bold" fill="#00829B" text-anchor="middle">aczet</text>
+  </g>
+</svg>

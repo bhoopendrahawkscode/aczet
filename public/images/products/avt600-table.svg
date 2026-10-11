@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" width="200" height="160">
+  <defs>
+    <linearGradient id="graniteTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e242b"/>
+      <stop offset="50%" stop-color="#2c343f"/>
+      <stop offset="100%" stop-color="#14181d"/>
+    </linearGradient>
+    <linearGradient id="tableBevel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a4452"/>
+      <stop offset="100%" stop-color="#1a2027"/>
+    </linearGradient>
+    <linearGradient id="frameLeg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="60%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="frameInner" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+    <filter id="tableShadow" x="-10%" y="-10%" width="130%" height="140%">
+      <feDropShadow dx="3" dy="8" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Table Base & Legs -->
+  <g filter="url(#tableShadow)">
+    <!-- Back Leg Left -->
+    <rect x="52" y="70" width="14" height="62" fill="#94a3b8" rx="2"/>
+    <!-- Back Leg Right -->
+    <rect x="136" y="66" width="14" height="60" fill="#94a3b8" rx="2"/>
+    <!-- Back Cross Beam -->
+    <polygon points="56,86 142,80 142,92 56,98" fill="#64748b"/>
+
+    <!-- Front Leg Left -->
+    <rect x="36" y="80" width="16" height="66" fill="url(#frameLeg)" rx="2"/>
+    <polygon points="36,80 44,76 44,142 36,146" fill="#cbd5e1"/>
+    <!-- Front Leg Right -->
+    <rect x="150" y="74" width="16" height="64" fill="url(#frameLeg)" rx="2"/>
+    <polygon points="150,74 158,70 158,134 150,138" fill="#cbd5e1"/>
+
+    <!-- Front Lower Support Bar with Cutout -->
+    <polygon points="48,104 152,98 152,112 48,118" fill="url(#frameLeg)"/>
+    <path d="M 60,117 Q 100,105 140,111 L 140,113 Q 100,107 60,119 Z" fill="#94a3b8"/>
+
+    <!-- Leveling Feet -->
+    <ellipse cx="44" cy="146" rx="9" ry="3.5" fill="#334155"/>
+    <rect x="42" y="143" width="4" height="4" fill="#64748b"/>
+    <ellipse cx="158" cy="138" rx="9" ry="3.5" fill="#334155"/>
+    <rect x="156" y="135" width="4" height="4" fill="#64748b"/>
+
+    <!-- Sub-frame Under Slab -->
+    <polygon points="28,68 174,58 174,76 28,86" fill="url(#frameLeg)"/>
+    <polygon points="28,86 174,76 174,80 28,90" fill="#94a3b8"/>
+
+    <!-- Heavy Polished Granite / Marble Slab -->
+    <!-- Slab Bottom Edge -->
+    <polygon points="20,54 182,42 182,60 20,72" fill="url(#tableBevel)"/>
+    <!-- Slab Front Bevel -->
+    <polygon points="20,54 182,42 182,47 20,59" fill="#475569"/>
+    <!-- Slab Top Surface -->
+    <polygon points="34,26 168,18 182,42 20,54" fill="url(#graniteTop)"/>
+    <!-- Reflection highlight on granite -->
+    <polygon points="42,28 158,21 166,27 48,34" fill="#ffffff" opacity="0.12"/>
+    
+    <!-- Aczet Branding badge on front apron -->
+    <rect x="135" y="65" width="22" height="6" rx="1" fill="#00829B"/>
+    <text x="146" y="69.5" font-family="Arial, sans-serif" font-size="3.5" font-weight="bold" fill="#ffffff" text-anchor="middle">aczet</text>
+  </g>
+</svg>

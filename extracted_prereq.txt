@@ -1,0 +1,578 @@
+Pre-Requisites for Defining Scope of Work (SOW) – 
+Website Development for Aczet 
+
+1. Business Understanding 
+
+•  Nature of Business: Manufacturing (Products & Services)  
+•  Target Audience: B2B & B2C  
+•  Purpose of Website: Branding, Lead Generation, Product Showcase  
+•  Geographical Reach: Domestic & International 
+
+2. Requirements 
+
+•  Estimated Pages / Sections: ~150 Pages or more 
+
+Core Requirements 
+
+•  Website must be SEO-friendly to ensure strong ranking on search engines (Google, 
+
+Bing)  
+
+•  Website must be AI-friendly to ensure visibility in AI-driven platforms (ChatGPT, 
+
+Google SGE, claude, Perplexity, voice search, All AI tools)  
+
+•  Website must be Mobile-Friendly (Responsive Design) to ensure seamless 
+
+experience across mobile, tablet, and desktop devices 
+
+Required Modules & Features 
+
+•  Contact / Inquiry Forms  
+•  Gallery / Media Library  
+•  Up-coming Exhibitions  
+•  Product / Service Catalog, User manaul 
+•  Product Comparison Feature  
+•  Export / Download Comparison (PDF/Excel)  
+•  Blog / News Module  
+•  Careers / Job Posting  
+•  Downloadable Brochures  
+•  Technical Publications  
+•  Webinars / Events Section  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+•  Service Registration Module  
+•  Distributor / Dealer Login Portal  
+•  Payment Gateway (if required)  
+•  Admin Dashboard (CMS)  
+•  Advanced Search & Filters  
+•  WhatsApp / Live Chat Integration (if required in future)  
+•  Multi-Language Support  
+•  Country-wise / Region-wise Product Display [ based on IP address ] 
+
+ 3. Multi-Language Requirements 
+
+Requirement 
+
+Details 
+
+Languages Required 
+
+English, Arabic, Spanish, Chinese, Thai, French, German, Italian, 
+Japanese, Russian, Portuguese, Korean 
+
+Translation Method  Aczet team will provide translated content  
+
+Restriction 
+
+Google Translate or auto-translation plugins are not acceptable 
+
+Language Switching 
+Style 
+
+SEO Strategy 
+
+Dropdown Menu / Country Flag Based 
+
+Separate pages per language (recommended for SEO with hreflang 
+tags) 
+
+Note: No Google Translate or any auto-translation plugins should be used. All language 
+content must be properly structured and SEO-optimized.  
+
+4. Country-Wise / Region-Wise Listing 
+
+Requirement 
+
+Details 
+
+Regions Covered 
+
+India, GCC, Europe, Asia Pacific, Thailand, USA 
+
+Variation Type 
+
+Product Availability, Content, Compliance Labels 
+
+Country 
+Detection 
+
+Automatic detection via IP address  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Requirement 
+
+Details 
+
+Product Visibility 
+Rule 
+
+Products visible in India should not necessarily be visible in other 
+regions and vice versa. Product visibility should be configurable region-
+wise. 
+
+Per Region 
+Deliverables 
+
+Product Range, Product Catalog, Comparison, Certifications 
+
+Website should auto-detect user location via IP and display region-specific product 
+range, content, and certifications, with an option for users to manually switch their 
+region if required. 
+
+5. Visual & Branding Inputs 
+
+•  Logo: SVG/PNG preferred  
+•  Brand Colors & Typography Guidelines: To be provided  
+•  Reference Websites (for design direction):  
+
+o  Mettler Toledo 
+
+👉 Clean, premium, structured product-focused layout with strong global 
+positioning 
+👉 Visit Website  
+
+o  RADWAG 
+
+👉 Strong product categorization, technical depth, and multi-language 
+interface 
+👉 Visit Website 
+
+Design Tone & Direction 
+
+•  Corporate  
+Industrial  
+• 
+•  High-End  
+
+6. Content Requirements 
+
+•  Content Responsibility: Aczet Marketing Team will Provided  
+•  Product & Service Descriptions  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+•  Technical Specifications  
+•  Product / Process / Factory Images  
+•  Certificates, Case Studies, Brochures 
+
+Our team will provide the following structured documents to support development: 
+
+Document Name 
+
+Country-wise 
+Product Sheet 
+
+Technical Datasheet 
+
+Product Category 
+Sheet 
+Website 
+Development 
+Document 
+Non-Technical 
+Content Document 
+
+Details 
+
+Excel sheet containing product details along with mapping of which 
+products will be showcased in which countries/regions. To be used for 
+region-wise product display on website. 
+Excel sheet containing complete technical specifications, features, and 
+detailed product information for all products. 
+Excel sheet with product short descriptions, category mapping, and filter 
+structure to be implemented on the website. 
+Detailed document outlining website structure, layout expectations, 
+UI/UX direction, and reference outputs. Final website must be equal to 
+or better than the provided benchmark. 
+Document containing all non-technical content including About Us, 
+Homepage content, Careers, Exhibitions, and other informational pages. 
+
+7. Technical, SEO & AI Requirements 
+
+Technical 
+
+•  Cloud Hosting  
+•  Custom Development  
+•  Domain access available  
+•  Email setup required  
+
+SEO Requirements 
+
+•  SEO-friendly URL structure  
+•  Proper heading hierarchy (H1, H2, H3)  
+•  Meta titles, descriptions, alt tags  
+•  XML Sitemap & Robots.txt  
+•  Schema Markup (Product, FAQ, Organization, Breadcrumb)  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Internal linking strategy  
+
+•  Core Web Vitals optimization  
+•  Mobile-first responsive design  
+• 
+•  Canonical tags  
+•  Multilingual SEO (hreflang implementation)  
+•  SEO keyword list will be provided by the client (Aczet team) and must be 
+
+implemented across relevant pages 
+
+AI-Friendly Requirements 
+
+•  Content structured in Q&A / FAQ format  
+•  Clear product descriptions with use cases & specs  
+•  Semantic keyword usage (natural language)  
+•  Voice search optimization  
+•  Content optimized for AI summaries & zero-click results  
+•  Knowledge graph-friendly data structuring  
+
+8. Compliance & Legal 
+
+•  Company Registration Details  
+•  Product Registration Details 
+•  Mandatory Disclosures  
+•  Privacy Policy  
+•  Terms & Conditions  
+•  Cookie Consent 
+
+9. Additional Considerations 
+
+•  High-resolution images for website & creatives  
+•  Consistent product visuals (shadows/reflections for premium look)  
+•  Scalable website architecture for future expansion  
+• 
+
+Integration readiness with CRM, WhatsApp, Email marketing tools. BRPERP  
+
+The website must be fully SEO-optimized and AI-friendly, ensuring high visibility across 
+search engines and AI-driven platforms, while delivering a seamless user experience and 
+strong lead generation capability. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+10. Deliverables Expected from Vendor 
+
+•  Fully functional website  
+•  Admin panel access  
+•  Source code & credentials  
+•  SEO setup implementation  
+•  AI-friendly content structuring  
+•  Documentation & training  
+•  Backup & security setup  
+
+11. Project Management & Timeline  
+
+•  Detailed project plan with milestones to be shared before start  
+•  Timeline breakup:  
+
+o  Design Phase  
+o  Development Phase  
+o  Testing Phase  
+o  Deployment  
+
+•  Weekly progress updates mandatory  
+•  TAT (Turnaround Time): Website go-live is expected within 30–45 days from 
+
+project kickoff 
+
+12. Performance & Speed Requirements 
+
+•  Website load time should be < 3 seconds  
+•  Optimized for Core Web Vitals (Google standards)  
+• 
+•  High performance across devices (desktop, mobile, tablet) 
+
+Image optimization and lazy loading required  
+
+13. Security Requirements 
+
+•  SSL implementation mandatory  
+•  Protection against common vulnerabilities (XSS, SQL Injection, etc.)  
+•  Regular backups (automated)  
+•  Admin access control & role management 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+14. Testing & Quality Assurance 
+
+•  Cross-browser compatibility (Chrome, Safari, Edge, Firefox)  
+•  Mobile responsiveness testing  
+•  Form testing (all enquiry forms must work properly)  
+•  No broken links or missing pages  
+•  AI validation to ensure content structure, schema, and pages are optimized for AI-
+
+driven platforms (ChatGPT, Google SGE, voice search) 
+
+•  SEO validation before launch 
+
+15. Training & Handover 
+
+•  Complete training for internal team on CMS usage  
+•  Documentation for:  
+
+o  Adding products  
+o  Editing content  
+o  Managing enquiries  
+
+•  Full handover of:  
+
+o  Source code  
+o  Admin credentials  
+o  Hosting access 
+
+16. Post-Launch Support 
+
+•  Minimum 60–90 days support period after launch  
+•  Bug fixing included (no extra cost)  
+•  Vendor must provide a Service Level Agreement (SLA) for a minimum period of 5 
+
+years covering support, maintenance, and issue resolution timelines 
+
+•  AMC (Annual Maintenance Cost) to be quoted separately 
+
+17. Lead Management System  
+
+All enquiry forms across the website must comply with the following: 
+
+•  All leads must be:  
+
+o  Stored in backend (CMS database)  
+o  Trigger instant email notifications to designated email IDs  
+o  Logged with timestamp and source  
+
+•  Lead fields must include:  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+o  Name, Company, Email, Phone  
+o  Product of interest  
+o  Region / Country  
+o  Source (Organic / Paid / Direct / Campaign)  
+
+•  System must support:  
+
+o  Lead tagging (Product / Region / Campaign)  
+o  Lead filtering and search in backend  
+o  Export leads in Excel / CSV format  
+
+• 
+
+Integration requirements:  
+
+o  CRM integration readiness (Zoho CRM or similar)  
+o  API-based lead push capability  
+
+•  Auto-response:  
+
+o  Automated email acknowledgment must be sent to customer after enquiry 
+
+submission 
+
+18. Scalability & Future Scope 
+
+Website should support:  
+
+o  Future product additions  
+o  New languages  
+o  New regions  
+o  Product Pricing Display (if applicable) 
+o  Add to Cart / Cart Functionality (for enquiry or purchase flow) 
+o 
+
+Integration with ERP / CRM 
+
+19.Analytics & Tracking 
+
+Vendor must implement complete tracking setup: 
+
+•  Google Analytics 4 (GA4)  
+•  Google Tag Manager (GTM)  
+
+Event tracking must include: 
+
+•  Form submissions  
+•  Button clicks (Enquiry / Download / Demo)  
+•  Brochure downloads  
+•  Product page visits  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Additional tracking: 
+
+•  UTM tracking for campaigns  
+•  Conversion tracking setup  
+
+Optional (Preferred): 
+
+•  Heatmap integration (Microsoft Clarity / Hotjar)  
+
+Vendor must: 
+
+•  Configure tracking  
+•  Test tracking  
+•  Provide access & documentation  
+
+20. Content Upload & Management Scope 
+
+Requirement 
+
+Details 
+
+Content 
+Ownership 
+
+All content (text, images, datasheets, brochures) will be provided by 
+Aczet. 
+
+Vendor 
+Responsibility 
+
+Vendor is fully responsible for uploading, managing, and formatting 
+all content across the website. 
+
+Scope of Upload 
+
+Content 
+Formatting 
+Multi-language 
+Handling 
+
+Quality Check 
+
+Complete website content (~150 pages or as per sitemap) must be 
+uploaded including products, images, and documents. 
+
+Vendor must ensure proper structure (H1, H2, SEO tags), alignment, 
+and correct placement of images, tables, and downloadable files. 
+Vendor must upload all translated content and implement proper 
+hreflang tags. 
+
+No dummy content, no missing data, no broken links, and consistent 
+formatting across all pages must be ensured. 
+
+Content Limitation 
+
+No restriction on number of pages or content volume. Vendor is 
+responsible for complete website population. 
+
+Completion 
+Criteria 
+
+Project will be considered complete only when all content is fully 
+uploaded, properly formatted, and website is ready for go-live 
+without gaps. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+21. UX / Conversion Requirement  
+
+•  Clear CTA (Get Quote / Demo)  
+•  Sticky enquiry button  
+•  Product page must have enquiry + download  
+•  Homepage must highlight industries + categories 
+
+Website = Leads (not just design) 
+
+22. Commercial & Legal  
+
+Requirement 
+
+Details 
+
+Design 
+Ownership 
+
+Vendor must not reuse templates or designs created for Aczet for any 
+other client or competitor. 
+
+Code Ownership 
+
+Complete source code must be original and fully owned by Aczet. 
+Vendor will have no ownership or reuse rights. 
+
+Cost 
+Transparency 
+
+No hidden or additional costs will be accepted after project finalization. 
+All costs must be defined upfront. 
+
+Scope Deviation 
+
+Any change or deviation from agreed scope must be documented and 
+approved by Aczet before implementation. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1A1F2C" />
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#goldBg)"/>
+
+  <!-- Jewelry Scale Body -->
+  <g transform="translate(180, 110)">
+    <!-- Base -->
+    <rect x="50" y="270" width="340" height="90" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+    
+    <!-- LCD Display Screen -->
+    <rect x="100" y="295" width="240" height="46" rx="6" fill="#0F172A" stroke="#F59E0B" stroke-width="1.5"/>
+    <text x="220" y="326" fill="#F59E0B" font-family="'Courier New', monospace" font-weight="bold" font-size="18" text-anchor="middle">600.000 ct</text>
+
+    <!-- Glass Windshield Ring -->
+    <circle cx="220" cy="180" r="85" fill="rgba(56, 189, 248, 0.15)" stroke="#38BDF8" stroke-width="2"/>
+    <ellipse cx="220" cy="180" rx="60" ry="16" fill="url(#goldAccent)" stroke="#B45309" stroke-width="1.5"/>
+
+    <!-- Aczet Branding -->
+    <text x="50" y="40" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-weight="bold" font-size="22">aczet<tspan fill="#E55604">.</tspan></text>
+    <text x="390" y="40" fill="#F59E0B" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" text-anchor="end">GXZ 600 &#8226; CARAT SCALE</text>
+  </g>
+</svg>

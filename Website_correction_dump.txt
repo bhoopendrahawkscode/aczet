@@ -1,0 +1,32 @@
+Basic Website correction Date : 3 oct, 2026Homepage Header & Navigation Corrections
+Remove the green colour used in the current design. As already discussed, we do not want the website to look like an exact copy of Mettler Toledo. The colour scheme should follow Aczet’s own brand identity.
+In the top navigation menu, correct add Blogs  & Events instead of Events & Expertise.
+Add Career after Blogs  & Eventsand before About Us.
+The required navigation order should be:
+Products & Solutions | Industries | Services & Support | Blogs  & Events | Career | About Us | Contact Us
+Please ensure the overall header design, buttons, highlights, and navigation styling are visually distinct and not directly replicated from the reference website.
+Remove the complete “Key Metrology & Equipment Categories” section from the homepage. This section is not required.
+Add a AI Chatbot on the homepage so visitors can quickly ask questions and get assistance.
+Add a direct WhatsApp messaging option on the homepage. It should be clearly visible and allow visitors to start a WhatsApp conversation with Aczet directly.
+The AI Chatbot and WhatsApp option should remain easily accessible while scrolling, preferably as floating buttons/widgets without disturbing the main website content.
+Product & Solutions Menu – Slider Correction
+As already discussed, only 2 slider levels are required for most product categories/series.
+Currently, a 3-level slider/menu structure has been applied across all categories, which is not as per the requirement.
+The 3rd slider level should be used only for those specific series/categories where it is actually required.
+For all other categories, please keep the navigation limited to 2 slider levels only.
+Kindly review each product category individually and implement the slider structure according to the actual requirement instead of applying the same 3-level structure everywhere.
+When clicking on Laboratory Weighing, all relevant products under this category should open/display properly
+Please verify the complete product mapping under Laboratory Weighing and ensure that no product is omitted.The product filter is also not implemented according to the Word document already shared.
+Please follow the exact filter structure and options mentioned in the provided document instead of using a different or generic filter arrangement.
+Product Showcase / Product Listing Design Correction
+The current product showcase layout is not according to the Word document already shared.
+The product card structure, image placement, specification display, buttons, spacing, and overall presentation need to follow the approved layout mentioned in the document.
+Please do not create a different product card format on your own. The product showcase should match the shared reference and requirement exactly.
+The current layout appears too text-heavy and does not present the product in the required visual hierarchy.
+Please revise the complete product listing/showcase section according to the provided document before considering this section completed.
+Product Detail Page – Dropdown Format Correction
+The sections Overview, Specifications, Documentation, Accessories, Compliances, and FAQ are available, but the dropdown format is not according to the structure and design that was already explained and shared.
+When any of these sections is opened, the content presentation, alignment, spacing, table/field structure, and overall format are different from the required layout.
+Please follow the exact format provided in the shared document instead of using a different dropdown presentation.
+The dropdown behavior and content structure should remain consistent across all product detail pages.
+There are still several additional changes that need to be addressed, and we will continue adding them to this document. In the meantime, please do not delay the work further—start implementing all the points already discussed during the call and all the corrections mentioned above immediately.

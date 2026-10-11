@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" width="200" height="160">
+  <defs>
+    <linearGradient id="boxFront" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="boxSide" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+    <linearGradient id="ionRod" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#64748b"/>
+      <stop offset="50%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+    <filter id="ionShadow" x="-10%" y="-10%" width="130%" height="140%">
+      <feDropShadow dx="3" dy="6" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#ionShadow)">
+    <!-- Left: Ionizing Electrode Bar & Stand -->
+    <!-- Heavy Metal Base Plate -->
+    <path d="M 20,122 L 72,122 L 68,132 L 16,132 Z" fill="#475569" stroke="#334155" stroke-width="1"/>
+    <!-- Vertical Ionizing Tower/Bar -->
+    <rect x="25" y="45" width="14" height="78" rx="2" fill="url(#ionRod)"/>
+    <!-- Ionizing Needle Emitter Ports -->
+    <circle cx="32" cy="54" r="2.5" fill="#0f172a"/>
+    <polygon points="32,53 23,54 32,55" fill="#f59e0b"/>
+    
+    <circle cx="32" cy="68" r="2.5" fill="#0f172a"/>
+    <polygon points="32,67 23,68 32,69" fill="#f59e0b"/>
+    
+    <circle cx="32" cy="82" r="2.5" fill="#0f172a"/>
+    <polygon points="32,81 23,82 32,83" fill="#f59e0b"/>
+
+    <circle cx="32" cy="96" r="2.5" fill="#0f172a"/>
+    <polygon points="32,95 23,96 32,97" fill="#f59e0b"/>
+
+    <circle cx="32" cy="110" r="2.5" fill="#0f172a"/>
+    <polygon points="32,109 23,110 32,111" fill="#f59e0b"/>
+
+    <!-- Right: Main Controller Power Unit Box -->
+    <!-- Controller Top -->
+    <polygon points="105,65 145,55 185,62 145,72" fill="#e2e8f0"/>
+    <!-- Controller Left Face -->
+    <polygon points="105,65 145,72 145,125 105,116" fill="url(#boxSide)"/>
+    <!-- Controller Front Face -->
+    <polygon points="145,72 185,62 185,114 145,125" fill="url(#boxFront)"/>
+
+    <!-- Front Controls & Indicators -->
+    <!-- Power Toggle Switch -->
+    <circle cx="156" cy="84" r="4.5" fill="#ef4444" stroke="#991b1b" stroke-width="1"/>
+    <!-- Ion Balance Dial Knob -->
+    <circle cx="173" cy="84" r="5" fill="#334155"/>
+    <line x1="173" y1="84" x2="175" y2="80" stroke="#ffffff" stroke-width="1.5"/>
+
+    <!-- High Voltage HV Status LED -->
+    <circle cx="156" cy="98" r="2.5" fill="#22c55e"/>
+    <circle cx="166" cy="98" r="2" fill="#00829B"/>
+
+    <!-- Output Socket on Front -->
+    <rect x="156" y="106" width="18" height="8" rx="1.5" fill="#1e293b"/>
+
+    <!-- High-Voltage Connecting Cable to Bar -->
+    <path d="M 39,114 C 65,145 100,125 108,105" fill="none" stroke="#00829B" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Aczet Logo on controller unit -->
+    <text x="165" y="74" font-family="Arial, sans-serif" font-size="5" font-weight="bold" fill="#00829B" text-anchor="middle">aczet</text>
+    <text x="165" y="79" font-family="Arial, sans-serif" font-size="3" fill="#64748b" text-anchor="middle">CI 01</text>
+  </g>
+</svg>

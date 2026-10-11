@@ -1,0 +1,1010 @@
+[
+  {
+    "group": "Laboratory Weighing",
+    "category": "Microbalance",
+    "category_intro": "",
+    "question": "What is a microbalance?",
+    "answer": "A microbalance is a high-precision weighing instrument designed to measure extremely small sample quantities at microgram-level readability. It is commonly used in pharmaceutical, environmental, chemical, research and material-testing laboratories like the Pollution Control Board. Medical use for testing of Stent, Pipette Calibration for NABL accrediation lab etc etc."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Microbalance",
+    "category_intro": "",
+    "question": "What is the difference between a microbalance and an analytical balance?",
+    "answer": "A microbalance provides finer readability than a standard analytical balance. Analytical balances commonly provide 0.1 mg readability, while microbalances are designed to measure at the microgram level."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Microbalance",
+    "category_intro": "",
+    "question": "What factors can affect microbalance readings?",
+    "answer": "Air movement, vibration, temperature variation, electrostatic charge, humidity, an unlevelled installation and improper sample handling can affect measurement stability and accuracy."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Microbalance",
+    "category_intro": "",
+    "question": "Where should a microbalance be installed?",
+    "answer": "Install the balance on a stable anti-vibration table in a clean, temperature-controlled room, away from air-conditioning vents, doors, windows, direct sunlight and frequently used equipment."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Microbalance",
+    "category_intro": "",
+    "question": "How often should a microbalance be calibrated?",
+    "answer": "Calibration frequency depends on usage, environmental conditions and quality-system requirements. Internal calibration may be performed routinely, while periodic external calibration should be carried out with suitable certified test weights."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Microbalance",
+    "category_intro": "",
+    "question": "Why is an antistatic ionizer useful?",
+    "answer": "Static electricity can create unstable or incorrect readings when weighing powders, filters, plastic containers and low-mass samples. An ionizer helps neutralize electrostatic charge before weighing."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Semi-Micro Balance",
+    "category_intro": "For applications that require finer resolution than a conventional analytical balance but do not require a full microbalance.",
+    "question": "What is a semi-micro balance?",
+    "answer": "A semi-micro balance is a high-resolution laboratory balance designed for small sample quantities, commonly offering readability as fine as 0.01 mg depending on the model."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Semi-Micro Balance",
+    "category_intro": "For applications that require finer resolution than a conventional analytical balance but do not require a full microbalance.",
+    "question": "When should I use a semi-micro balance?",
+    "answer": "It is suitable when an analytical balance does not provide sufficient resolution but a full microbalance is not necessary. Typical applications include formulation, sample preparation, pharmaceutical testing and research."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Semi-Micro Balance",
+    "category_intro": "For applications that require finer resolution than a conventional analytical balance but do not require a full microbalance.",
+    "question": "What is a dual-range semi-micro balance?",
+    "answer": "A dual-range balance provides two weighing ranges. The lower range offers finer readability, while the higher range provides increased capacity with a different readability."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Semi-Micro Balance",
+    "category_intro": "For applications that require finer resolution than a conventional analytical balance but do not require a full microbalance.",
+    "question": "Why is a draft shield required?",
+    "answer": "At very fine readability, even small air currents can disturb the weighing result. A draft shield protects the weighing pan and improves measurement stability."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Semi-Micro Balance",
+    "category_intro": "For applications that require finer resolution than a conventional analytical balance but do not require a full microbalance.",
+    "question": "Can semi-micro balances transfer data to a computer or printer?",
+    "answer": "Selected models may provide communication interfaces such as RS232 or USB for data transfer, printing and connection to compatible software."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Analytical Balance",
+    "category_intro": "For accurate and repeatable laboratory weighing of small samples, typically with a draft shield and fine readability.",
+    "question": "What is an analytical balance?",
+    "answer": "An analytical balance is a precision laboratory instrument commonly offering 0.1 mg readability. It is used when accurate and repeatable measurement of small quantities is required."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Analytical Balance",
+    "category_intro": "For accurate and repeatable laboratory weighing of small samples, typically with a draft shield and fine readability.",
+    "question": "What applications can be performed on an analytical balance?",
+    "answer": "Available functions depend on the model and may include:\n•  Basic weighing\n•  Percentage weighing\n•  Piece counting\n•  Check weighing\n•  Formulation and totalization\n•  Density determination\n•  Statistics\n•  Dynamic or animal weighing"
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Analytical Balance",
+    "category_intro": "For accurate and repeatable laboratory weighing of small samples, typically with a draft shield and fine readability.",
+    "question": "Why should the balance be levelled?",
+    "answer": "Correct levelling ensures that the weighing mechanism operates in its intended position. An incorrectly levelled balance may produce inaccurate or inconsistent results."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Analytical Balance",
+    "category_intro": "For accurate and repeatable laboratory weighing of small samples, typically with a draft shield and fine readability.",
+    "question": "What is internal calibration?",
+    "answer": "Internal calibration uses a built-in reference weight to adjust the balance. On supported models, motorized internal calibration simplifies routine accuracy checks and can compensate for temperature or time-related changes."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Analytical Balance",
+    "category_intro": "For accurate and repeatable laboratory weighing of small samples, typically with a draft shield and fine readability.",
+    "question": "What is the minimum sample weight?",
+    "answer": "Minimum sample weight is the smallest quantity that can be weighed while meeting a specified measurement uncertainty or regulatory requirement. It is different from the readability displayed by the balance."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Analytical Balance",
+    "category_intro": "For accurate and repeatable laboratory weighing of small samples, typically with a draft shield and fine readability.",
+    "question": "How should an analytical balance be cleaned?",
+    "answer": "Remove loose powder with a soft brush and clean accessible surfaces with an appropriate lint-free cloth. Do not allow liquid or material to enter the weighing mechanism. Follow the product manual for removable draft-shield components."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Precision Balance",
+    "category_intro": "For routine laboratory, quality-control and production weighing where a combination of accuracy, capacity and speed is required.",
+    "question": "What is a precision balance?",
+    "answer": "A precision balance provides accurate weighing with greater capacity than many analytical balances. Readability may range from milligram-level to higher increments depending on the model."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Precision Balance",
+    "category_intro": "For routine laboratory, quality-control and production weighing where a combination of accuracy, capacity and speed is required.",
+    "question": "What is the difference between precision and analytical balances?",
+    "answer": "Analytical balances normally provide finer readability and include a draft shield. Precision balances generally provide higher capacities, larger weighing pans and faster routine weighing."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Precision Balance",
+    "category_intro": "For routine laboratory, quality-control and production weighing where a combination of accuracy, capacity and speed is required.",
+    "question": "Where are precision balances used?",
+    "answer": "They are commonly used in laboratories, production areas, quality-control departments, educational institutions, jewellery operations, warehouses and manufacturing facilities."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Precision Balance",
+    "category_intro": "For routine laboratory, quality-control and production weighing where a combination of accuracy, capacity and speed is required.",
+    "question": "Do precision balances require a draft shield?",
+    "answer": "Models with finer readability may benefit from a draft shield. Higher-capacity models used for larger samples may not require one."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Precision Balance",
+    "category_intro": "For routine laboratory, quality-control and production weighing where a combination of accuracy, capacity and speed is required.",
+    "question": "Can a precision balance be used for piece counting?",
+    "answer": "Yes. Models offering piece-counting functionality calculate the number of components based on an established average piece weight."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Moisture Analyzer",
+    "category_intro": "For rapid moisture-content determination using controlled heating and weight-loss measurement.",
+    "question": "What is a moisture analyzer?",
+    "answer": "A moisture analyzer combines a precision weighing system with a heating system. It determines moisture content by measuring the sample's weight loss during controlled drying."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Moisture Analyzer",
+    "category_intro": "For rapid moisture-content determination using controlled heating and weight-loss measurement.",
+    "question": "What materials can be tested?",
+    "answer": "Moisture analyzers are used for food products, pharmaceuticals, chemicals, cosmetics, polymers, cement, agricultural materials and other products where moisture influences quality."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Moisture Analyzer",
+    "category_intro": "For rapid moisture-content determination using controlled heating and weight-loss measurement.",
+    "question": "How much sample should be used?",
+    "answer": "Sample Size:\n2 g\n5 g\n10 g\nThe required sample quantity depends on the material type and measurement method. The sample should normally be spread in a thin, even layer to ensure uniform drying and accurate results."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Moisture Analyzer",
+    "category_intro": "For rapid moisture-content determination using controlled heating and weight-loss measurement.",
+    "question": "Why do moisture results vary?",
+    "answer": "Variation may result from inconsistent sample size, uneven spreading, incorrect drying temperature, unsuitable shut-off criteria, contamination or differences in sample preparation."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Moisture Analyzer",
+    "category_intro": "For rapid moisture-content determination using controlled heating and weight-loss measurement.",
+    "question": "How do I select the correct drying temperature?",
+    "answer": "Begin with an established reference method or compare different temperature settings against a recognized laboratory method. The temperature should remove moisture without decomposing or burning the sample."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Moisture Analyzer",
+    "category_intro": "For rapid moisture-content determination using controlled heating and weight-loss measurement.",
+    "question": "Does a moisture analyzer require calibration?",
+    "answer": "Both the weighing system and heating system should be checked periodically. Weight calibration verifies weighing performance, while temperature calibration verifies the heating system."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Moisture Analyzer",
+    "category_intro": "For rapid moisture-content determination using controlled heating and weight-loss measurement.",
+    "question": "What are the advantages of halogen heating?",
+    "answer": "The most important performance factor is precise and fast temperature regulation, which is best delivered by halogen lamps because of their low mass and therefore fast reaction time. This ensures repeatable results starting from the first measurement (some other heating sources either deliver different results in the first measurement or require a warm up measurement, which wastes time and resources). Furthermore, an even heat distribution on the sample surface is essential for repeatable and reliable results. We advise you to ask us or another manufacturer for a demonstration in order to experience the performance in real-life."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Moisture Analyzer",
+    "category_intro": "For rapid moisture-content determination using controlled heating and weight-loss measurement.",
+    "question": "How can a moisture analyzer support in method development?",
+    "answer": "The Method Wizard is a feature of HC103, HS153, and HX204 that offers assistance in developing a suitable moisture method for specific samples. Based on the characteristics of your sample as well as a test of the drying temperature and switch-off criterion, the Method Wizard can formulate a suitable method for your sample. The Method Wizard guides you through the development of your moisture method in three simple steps:\nQuestionnaire: proposal of method parameters based on sample characteristics.\nTemperature assistant: determination of drying temperature.\nTest measurement: verification of temperature and selection of appropriate switch-off criterion.\nAfter each step of the Method Wizard, you can decide whether to accept the current method settings or to complete another step of the wizard. For steps 2 and 3, a reference moisture content value is needed."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Electronic Densimeter",
+    "category_intro": "For density or specific-gravity determination of solids and liquids using measured mass values and a defined test method.",
+    "question": "What is an electronic densimeter?",
+    "answer": "An electronic densimeter determines the density or specific gravity of solids or liquids using measured mass values and an established calculation method as per archimedes base principal."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Electronic Densimeter",
+    "category_intro": "For density or specific-gravity determination of solids and liquids using measured mass values and a defined test method.",
+    "question": "What is the difference between density and specific gravity?",
+    "answer": "Density is mass per unit volume. Specific gravity compares the density of a material with the density of a reference substance, usually water for solids and liquids."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Electronic Densimeter",
+    "category_intro": "For density or specific-gravity determination of solids and liquids using measured mass values and a defined test method.",
+    "question": "What samples can be tested?",
+    "answer": "Depending on the model and accessories, densimeters may be used for metals, jewellery, gemstones, plastics, rubber, liquids and other solid materials."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Electronic Densimeter",
+    "category_intro": "For density or specific-gravity determination of solids and liquids using measured mass values and a defined test method.",
+    "question": "Can a densimeter confirm whether jewellery is pure gold?",
+    "answer": "Density testing can support material evaluation, but it may not identify every alloy or plated item conclusively with any stones or diamonds. Mixed with metals which has very close density to gold & Pt. XRF analysis is more suitable when elemental composition is required. But at the same time Fake gold detection is more precise in density base  Karat analyzer."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Electronic Densimeter",
+    "category_intro": "For density or specific-gravity determination of solids and liquids using measured mass values and a defined test method.",
+    "question": "Why must air bubbles be removed during density testing?",
+    "answer": "Air bubbles change the apparent displacement of the sample and can produce an incorrect density result."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Calibration Test Weights",
+    "category_intro": "For calibration, adjustment and routine performance checking of weighing instruments.",
+    "question": "What are calibration test weights?",
+    "answer": "Calibration test weights are precisely manufactured mass standards used to calibrate, adjust or routinely check weighing instruments, pharma, testing lab, food and many research and testing lab who are National accrediated Board Laboratory"
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Calibration Test Weights",
+    "category_intro": "For calibration, adjustment and routine performance checking of weighing instruments.",
+    "question": "Which test-weight class should I select?",
+    "answer": "The appropriate class depends on the balance readability, capacity, accuracy requirement and applicable quality system. High-resolution balances normally require higher-accuracy test weights."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Calibration Test Weights",
+    "category_intro": "For calibration, adjustment and routine performance checking of weighing instruments.",
+    "question": "What is the difference between calibration and routine testing?",
+    "answer": "Calibration establishes the relationship between the displayed value and a known reference. Routine testing checks whether the balance continues to perform within defined limits between calibrations."
+  },
+  {
+    "group": "Laboratory Weighing",
+    "category": "Calibration Test Weights",
+    "category_intro": "For calibration, adjustment and routine performance checking of weighing instruments.",
+    "question": "How should test weights be handled?",
+    "answer": "Use suitable tweezers, forks, gloves or weight handles. Avoid touching precision weights with bare hands because moisture, oil and dirt can alter their mass."
+  },
+  {
+    "group": "Jewellery & Precious-Metal Solutions",
+    "category": "Calibration Test Weights",
+    "category_intro": "For calibration, adjustment and routine performance checking of weighing instruments.",
+    "question": "How should test weights be stored?",
+    "answer": "Store them in their original protective case in a clean, dry and temperature-stable environment.\nWeighing and non-destructive elemental analysis for jewellery, gold and alloy applications."
+  },
+  {
+    "group": "Jewellery & Precious-Metal Solutions",
+    "category": "Jewellery and Gold Balances",
+    "category_intro": "For accurate weighing of gold, silver, diamonds, gemstones and other high-value materials.",
+    "question": "What is a jewellery balance?",
+    "answer": "A jewellery balance is designed for weighing gold, silver, diamonds, gemstones and other valuable materials with suitable capacity, readability and jewellery weighing units such as dwt, gm, ct, mg , mct, etc."
+  },
+  {
+    "group": "Jewellery & Precious-Metal Solutions",
+    "category": "Jewellery and Gold Balances",
+    "category_intro": "For accurate weighing of gold, silver, diamonds, gemstones and other high-value materials.",
+    "question": "What is the difference between a gold balance and a carat balance?",
+    "answer": "Gold balances commonly display weight in grams and other jewellery units. Carat balances are optimized for diamonds and gemstones and generally provide finer readability at a lower capacity."
+  },
+  {
+    "group": "Jewellery & Precious-Metal Solutions",
+    "category": "Jewellery and Gold Balances",
+    "category_intro": "For accurate weighing of gold, silver, diamonds, gemstones and other high-value materials.",
+    "question": "Which unit is used for weighing diamonds?",
+    "answer": "Diamonds and gemstones are commonly weighed in carats. One metric carat equals 200 milligrams."
+  },
+  {
+    "group": "Jewellery & Precious-Metal Solutions",
+    "category": "Jewellery and Gold Balances",
+    "category_intro": "For accurate weighing of gold, silver, diamonds, gemstones and other high-value materials.",
+    "question": "Why is legal-metrology approval important?",
+    "answer": "When a balance is used for commercial transactions, applicable local legal-metrology requirements may need to be followed. Requirements vary by country and application."
+  },
+  {
+    "group": "Jewellery & Precious-Metal Solutions",
+    "category": "Jewellery and Gold Balances",
+    "category_intro": "For accurate weighing of gold, silver, diamonds, gemstones and other high-value materials.",
+    "question": "How can jewellery weighing accuracy be maintained?",
+    "answer": "Keep the balance level, use it on a stable surface, avoid air movement, calibrate it regularly and ensure the weighing pan is clean before each measurement."
+  },
+  {
+    "group": "Jewellery & Precious-Metal Solutions",
+    "category": "Jewellery XRF Gold Testing Machines",
+    "category_intro": "For rapid, non-destructive elemental analysis and precious-metal purity evaluation.",
+    "question": "What is an XRF gold-testing machine?",
+    "answer": "An XRF gold-testing machine uses X-ray fluorescence to identify elements present in jewellery and precious-metal samples. The measurement is generally non-destructive and does not require cutting the sample."
+  },
+  {
+    "group": "Jewellery & Precious-Metal Solutions",
+    "category": "Jewellery XRF Gold Testing Machines",
+    "category_intro": "For rapid, non-destructive elemental analysis and precious-metal purity evaluation.",
+    "question": "Can XRF determine gold purity?",
+    "answer": "XRF can measure elemental composition at the tested surface and calculate gold concentration or karat value using an appropriate calibration method."
+  },
+  {
+    "group": "Jewellery & Precious-Metal Solutions",
+    "category": "Jewellery XRF Gold Testing Machines",
+    "category_intro": "For rapid, non-destructive elemental analysis and precious-metal purity evaluation.",
+    "question": "Does XRF damage jewellery?",
+    "answer": "Standard XRF testing is non-destructive. The sample remains physically intact during analysis."
+  },
+  {
+    "group": "Jewellery & Precious-Metal Solutions",
+    "category": "Jewellery XRF Gold Testing Machines",
+    "category_intro": "For rapid, non-destructive elemental analysis and precious-metal purity evaluation.",
+    "question": "Can XRF detect gold plating?",
+    "answer": "XRF analyses the region and effective depth reached by the X-rays. Thick coatings, unusual plating or layered materials may require additional investigation or specialized coating analysis."
+  },
+  {
+    "group": "Jewellery & Precious-Metal Solutions",
+    "category": "Jewellery XRF Gold Testing Machines",
+    "category_intro": "For rapid, non-destructive elemental analysis and precious-metal purity evaluation.",
+    "question": "Why can results vary at different positions?",
+    "answer": "Jewellery may contain solder joints, coatings, mixed alloys, stones, curved surfaces or non-uniform regions. Testing multiple representative locations improves confidence."
+  },
+  {
+    "group": "Jewellery & Precious-Metal Solutions",
+    "category": "Jewellery XRF Gold Testing Machines",
+    "category_intro": "For rapid, non-destructive elemental analysis and precious-metal purity evaluation.",
+    "question": "Does sample shape affect the result?",
+    "answer": "Yes. Small, curved, uneven or irregularly positioned samples can affect measurement geometry. The test area should be positioned correctly and consistently."
+  },
+  {
+    "group": "Jewellery & Precious-Metal Solutions",
+    "category": "Jewellery XRF Gold Testing Machines",
+    "category_intro": "For rapid, non-destructive elemental analysis and precious-metal purity evaluation.",
+    "question": "Is sample preparation required?",
+    "answer": "Most jewellery can be tested directly after cleaning the measurement area. Dirt, polishing compound, oil or surface contamination should be removed."
+  },
+  {
+    "group": "Jewellery & Precious-Metal Solutions",
+    "category": "Jewellery XRF Gold Testing Machines",
+    "category_intro": "For rapid, non-destructive elemental analysis and precious-metal purity evaluation.",
+    "question": "Is an XRF machine safe to operate?",
+    "answer": "XRF instruments must be used according to the manufacturer's instructions and applicable radiation-safety requirements. Enclosed systems use protective housing and safety features to control access during measurement."
+  },
+  {
+    "group": "Jewellery & Precious-Metal Solutions",
+    "category": "Handheld and Industrial XRF Analyzers",
+    "category_intro": "For portable or on-site elemental analysis, alloy identification and positive material identification applications.",
+    "question": "What is a handheld XRF analyzer?",
+    "answer": "A handheld XRF analyzer is a portable instrument used for rapid, non-destructive elemental analysis at the sample location."
+  },
+  {
+    "group": "Jewellery & Precious-Metal Solutions",
+    "category": "Handheld and Industrial XRF Analyzers",
+    "category_intro": "For portable or on-site elemental analysis, alloy identification and positive material identification applications.",
+    "question": "What materials can handheld XRF test?",
+    "answer": "Applications may include metals, alloys, precious metals, scrap, mining samples, components, coatings and positive material identification, depending on the instrument and calibration."
+  },
+  {
+    "group": "Jewellery & Precious-Metal Solutions",
+    "category": "Handheld and Industrial XRF Analyzers",
+    "category_intro": "For portable or on-site elemental analysis, alloy identification and positive material identification applications.",
+    "question": "What is PMI?",
+    "answer": "Positive Material Identification is the verification of alloy or material composition to confirm that the correct material is being used."
+  },
+  {
+    "group": "Jewellery & Precious-Metal Solutions",
+    "category": "Handheld and Industrial XRF Analyzers",
+    "category_intro": "For portable or on-site elemental analysis, alloy identification and positive material identification applications.",
+    "question": "Can handheld XRF detect every element?",
+    "answer": "The detectable element range depends on the detector, X-ray tube, calibration, measurement mode, sample and environmental conditions."
+  },
+  {
+    "group": "Laser Solutions",
+    "category": "Handheld and Industrial XRF Analyzers",
+    "category_intro": "For portable or on-site elemental analysis, alloy identification and positive material identification applications.",
+    "question": "Does measurement time affect accuracy?",
+    "answer": "Longer measurement times can improve counting statistics and precision, particularly for elements present at low concentrations. The required time depends on the application.\nMarking, welding and cutting systems for jewellery, industrial and precision manufacturing applications."
+  },
+  {
+    "group": "Laser Solutions",
+    "category": "Laser Marking Machines",
+    "category_intro": "For permanent marking, identification, branding and traceability on compatible materials.",
+    "question": "What is a laser marking machine?",
+    "answer": "A laser marking machine uses a focused laser beam to create text, logos, barcodes, serial numbers, patterns or identification marks on a material surface."
+  },
+  {
+    "group": "Laser Solutions",
+    "category": "Laser Marking Machines",
+    "category_intro": "For permanent marking, identification, branding and traceability on compatible materials.",
+    "question": "What materials can be laser marked?",
+    "answer": "Material compatibility depends on the laser source. Applications can include gold, silver, stainless steel, aluminium, brass, plastics and coated materials."
+  },
+  {
+    "group": "Laser Solutions",
+    "category": "Laser Marking Machines",
+    "category_intro": "For permanent marking, identification, branding and traceability on compatible materials.",
+    "question": "What is the difference between marking and engraving?",
+    "answer": "Laser marking changes the appearance of the surface, while engraving generally removes material to create measurable depth."
+  },
+  {
+    "group": "Laser Solutions",
+    "category": "Laser Marking Machines",
+    "category_intro": "For permanent marking, identification, branding and traceability on compatible materials.",
+    "question": "Can a laser marker create photographs and logos?",
+    "answer": "Yes. Suitable software can convert text, vector artwork, logos, serial numbers and selected image formats into marking files."
+  },
+  {
+    "group": "Laser Solutions",
+    "category": "Laser Marking Machines",
+    "category_intro": "For permanent marking, identification, branding and traceability on compatible materials.",
+    "question": "What information is needed before selecting a machine?",
+    "answer": "The supplier should understand the following:\n•  Material type\n•  Required marking depth\n•  Marking-area size\n•  Production volume\n•  Required speed\n•  Artwork type\n•  Part shape\n•  Automation requirements"
+  },
+  {
+    "group": "Laser Solutions",
+    "category": "Laser Marking Machines",
+    "category_intro": "For permanent marking, identification, branding and traceability on compatible materials.",
+    "question": "Does the machine require consumables?",
+    "answer": "Laser marking normally does not require ink or printing plates. Some maintenance items may still be required depending on the machine configuration and operating environment."
+  },
+  {
+    "group": "Laser Solutions",
+    "category": "Laser Welding Machines",
+    "category_intro": "For precision metal joining and repair with localized heat input and controlled welding parameters.",
+    "question": "What is a laser welding machine?",
+    "answer": "A laser welding machine uses concentrated laser energy to create precise welds on metal components. It is widely used for jewellery repair, precision assembly and fine metal joining."
+  },
+  {
+    "group": "Laser Solutions",
+    "category": "Laser Welding Machines",
+    "category_intro": "For precision metal joining and repair with localized heat input and controlled welding parameters.",
+    "question": "What materials can be laser welded?",
+    "answer": "Depending on the machine and welding parameters, applications may include gold, silver, platinum, stainless steel, titanium and other compatible metals."
+  },
+  {
+    "group": "Laser Solutions",
+    "category": "Laser Welding Machines",
+    "category_intro": "For precision metal joining and repair with localized heat input and controlled welding parameters.",
+    "question": "Does laser welding damage nearby stones?",
+    "answer": "Laser welding provides localized heating and can reduce heat transfer compared with many conventional welding methods. Suitability still depends on the setting, distance from the weld and selected parameters."
+  },
+  {
+    "group": "Laser Solutions",
+    "category": "Laser Welding Machines",
+    "category_intro": "For precision metal joining and repair with localized heat input and controlled welding parameters.",
+    "question": "What parameters affect the weld?",
+    "answer": "Important parameters include:\n•  Pulse energy\n•  Pulse duration\n•  Spot size\n•  Repetition rate\n•  Focus position\n•  Material thickness\n•  Joint design"
+  },
+  {
+    "group": "Laser Solutions",
+    "category": "Laser Welding Machines",
+    "category_intro": "For precision metal joining and repair with localized heat input and controlled welding parameters.",
+    "question": "Why is argon gas used?",
+    "answer": "Argon can help reduce oxidation and discoloration around the weld area, particularly for reactive or appearance-sensitive materials."
+  },
+  {
+    "group": "Laser Solutions",
+    "category": "Laser Welding Machines",
+    "category_intro": "For precision metal joining and repair with localized heat input and controlled welding parameters.",
+    "question": "Is operator training required?",
+    "answer": "Yes. Operators should be trained in machine operation, parameter selection, sample positioning, routine maintenance and laser-safety procedures."
+  },
+  {
+    "group": "Laser Solutions",
+    "category": "Laser Cutting Machines",
+    "category_intro": "For precise profile cutting and pattern production using a focused laser beam.",
+    "question": "What is a laser cutting machine?",
+    "answer": "A laser cutting machine uses focused laser energy to cut detailed shapes and patterns from suitable materials."
+  },
+  {
+    "group": "Laser Solutions",
+    "category": "Laser Cutting Machines",
+    "category_intro": "For precise profile cutting and pattern production using a focused laser beam.",
+    "question": "What factors determine cutting quality?",
+    "answer": "Cutting quality depends on laser power, material type, thickness, focus, cutting speed and the accuracy of the design file."
+  },
+  {
+    "group": "Laser Solutions",
+    "category": "Laser Cutting Machines",
+    "category_intro": "For precise profile cutting and pattern production using a focused laser beam.",
+    "question": "Which file formats can be used?",
+    "answer": "Supported formats depend on the machine software. Commonly used production files include  PLT , JPG and vector file."
+  },
+  {
+    "group": "Industrial Weighing",
+    "category": "Laser Cutting Machines",
+    "category_intro": "For precise profile cutting and pattern production using a focused laser beam.",
+    "question": "Can one machine cut every metal thickness?",
+    "answer": "No. Maximum thickness depends on the laser source, power, material and required edge quality.\nScales, load cells and indicators for production, warehousing, logistics and process weighing."
+  },
+  {
+    "group": "Industrial Weighing",
+    "category": "Industrial Weighing Scales",
+    "category_intro": "For production, warehousing, logistics, quality-control and process applications requiring higher capacity and robust construction.",
+    "question": "What is the difference between a bench scale and a platform scale?",
+    "answer": "Bench scales are generally used for smaller products on a workbench or stand. Platform scales provide larger weighing surfaces and higher capacities for cartons, containers and industrial materials."
+  },
+  {
+    "group": "Industrial Weighing",
+    "category": "Industrial Weighing Scales",
+    "category_intro": "For production, warehousing, logistics, quality-control and process applications requiring higher capacity and robust construction.",
+    "question": "How do I select the right capacity?",
+    "answer": "The scale capacity should be higher than the maximum expected load, including containers, fixtures and possible overload. Readability should also be suitable for the required process tolerance."
+  },
+  {
+    "group": "Industrial Weighing",
+    "category": "Industrial Weighing Scales",
+    "category_intro": "For production, warehousing, logistics, quality-control and process applications requiring higher capacity and robust construction.",
+    "question": "What is an IP rating?",
+    "answer": "An IP rating indicates the level of protection provided by the equipment enclosure against solid particles and water. The required rating depends on the operating environment."
+  },
+  {
+    "group": "Industrial Weighing",
+    "category": "Industrial Weighing Scales",
+    "category_intro": "For production, warehousing, logistics, quality-control and process applications requiring higher capacity and robust construction.",
+    "question": "Can an industrial scale connect to software?",
+    "answer": "Depending on the model and indicator, data may be transmitted through interfaces such as RS232, USB, Ethernet or other industrial communication options."
+  },
+  {
+    "group": "Industrial Weighing",
+    "category": "Industrial Weighing Scales",
+    "category_intro": "For production, warehousing, logistics, quality-control and process applications requiring higher capacity and robust construction.",
+    "question": "What is check weighing?",
+    "answer": "Check weighing compares the measured weight with defined lower and upper limits and indicates whether the product is underweight, acceptable or overweight."
+  },
+  {
+    "group": "Industrial Weighing",
+    "category": "Load Cells and Weighing Indicators",
+    "category_intro": "For converting applied force into a usable weighing signal and displaying or transmitting the measured value.",
+    "question": "What is a load cell?",
+    "answer": "A load cell is a sensor that converts applied force or weight into an electrical signal."
+  },
+  {
+    "group": "Industrial Weighing",
+    "category": "Load Cells and Weighing Indicators",
+    "category_intro": "For converting applied force into a usable weighing signal and displaying or transmitting the measured value.",
+    "question": "What is a weighing indicator?",
+    "answer": "A weighing indicator receives the load-cell signal, processes it and displays the measured weight. It may also provide printing, communication, set-point or process-control functions."
+  },
+  {
+    "group": "Industrial Weighing",
+    "category": "Load Cells and Weighing Indicators",
+    "category_intro": "For converting applied force into a usable weighing signal and displaying or transmitting the measured value.",
+    "question": "How many load cells are required for a platform?",
+    "answer": "The number depends on the platform design, capacity, size and load distribution. Small platforms may use one load cell, while larger floor scales and tanks commonly use multiple load cells."
+  },
+  {
+    "group": "Industrial Weighing",
+    "category": "Load Cells and Weighing Indicators",
+    "category_intro": "For converting applied force into a usable weighing signal and displaying or transmitting the measured value.",
+    "question": "Why does a scale reading drift?",
+    "answer": "Drift may result from temperature variation, unstable mounting, damaged cables, moisture, electrical interference, mechanical binding or an overloaded load cell."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Load Cells and Weighing Indicators",
+    "category_intro": "For converting applied force into a usable weighing signal and displaying or transmitting the measured value.",
+    "question": "Can load cells be used for tank weighing?",
+    "answer": "Yes. Tank and hopper weighing systems use load cells with appropriate mounting assemblies, junction boxes and indicators."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Refractometer",
+    "category_intro": "For refractive-index and concentration-related measurements in food, beverage, chemical, pharmaceutical and industrial samples.",
+    "question": "What is a refractometer?",
+    "answer": "A refractometer measures the refractive index of a sample. Depending on the scale and method, the result may also be displayed as Brix or another concentration-related unit."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Refractometer",
+    "category_intro": "For refractive-index and concentration-related measurements in food, beverage, chemical, pharmaceutical and industrial samples.",
+    "question": "What does Brix mean?",
+    "answer": "Degrees Brix indicate the approximate mass percentage of sucrose in a water solution. In non-sucrose samples, Brix is an optical equivalent and should be interpreted using the relevant product method."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Refractometer",
+    "category_intro": "For refractive-index and concentration-related measurements in food, beverage, chemical, pharmaceutical and industrial samples.",
+    "question": "Does temperature affect the result?",
+    "answer": "Yes. Refractive index changes with temperature. Use temperature compensation where available or measure at the specified reference temperature."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Refractometer",
+    "category_intro": "For refractive-index and concentration-related measurements in food, beverage, chemical, pharmaceutical and industrial samples.",
+    "question": "How much sample is required?",
+    "answer": "The required volume depends on the instrument and prism size. The measuring surface must be covered fully and evenly without trapped air."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Refractometer",
+    "category_intro": "For refractive-index and concentration-related measurements in food, beverage, chemical, pharmaceutical and industrial samples.",
+    "question": "How should the prism be cleaned?",
+    "answer": "Remove the sample promptly with a soft, lint-free material and a suitable cleaning liquid. Avoid scratching the prism or using chemicals that can damage seals and optical surfaces."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Refractometer",
+    "category_intro": "For refractive-index and concentration-related measurements in food, beverage, chemical, pharmaceutical and industrial samples.",
+    "question": "Why do repeated readings differ?",
+    "answer": "Differences may result from temperature variation, incomplete prism coverage, bubbles, contamination, evaporation, non-homogeneous samples or insufficient cleaning between tests."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Polarimeter",
+    "category_intro": "For measuring optical rotation in optically active substances such as sugars, pharmaceutical ingredients and chemical compounds.",
+    "question": "What is a polarimeter?",
+    "answer": "A polarimeter measures the angle through which an optically active sample rotates plane-polarized light."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Polarimeter",
+    "category_intro": "For measuring optical rotation in optically active substances such as sugars, pharmaceutical ingredients and chemical compounds.",
+    "question": "What is specific rotation?",
+    "answer": "Specific rotation is a standardized value calculated from the observed rotation while accounting for sample concentration, tube length, wavelength and temperature."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Polarimeter",
+    "category_intro": "For measuring optical rotation in optically active substances such as sugars, pharmaceutical ingredients and chemical compounds.",
+    "question": "Why are tube length and temperature important?",
+    "answer": "Optical rotation depends on the optical path length and temperature. Both must be controlled or recorded for comparable and traceable results."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Polarimeter",
+    "category_intro": "For measuring optical rotation in optically active substances such as sugars, pharmaceutical ingredients and chemical compounds.",
+    "question": "How should the sample tube be filled?",
+    "answer": "Fill the tube completely, avoid bubbles in the light path, ensure the end windows are clean and secure the caps without introducing leakage or stress."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Polarimeter",
+    "category_intro": "For measuring optical rotation in optically active substances such as sugars, pharmaceutical ingredients and chemical compounds.",
+    "question": "Can coloured or turbid samples be measured?",
+    "answer": "Strong colour, turbidity or suspended particles may reduce light transmission and affect the measurement. Sample preparation or an alternative method may be necessary."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Polarimeter",
+    "category_intro": "For measuring optical rotation in optically active substances such as sugars, pharmaceutical ingredients and chemical compounds.",
+    "question": "What routine checks are recommended?",
+    "answer": "Perform zero checks with the appropriate blank and verify performance periodically using suitable reference materials or certified quartz control plates where applicable."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Colorimeter",
+    "category_intro": "For objective colour measurement and comparison in liquids, solids or products using an instrument-specific colour scale.",
+    "question": "What is a colorimeter?",
+    "answer": "A colorimeter measures colour numerically using defined filters, illuminants and colour coordinates or scales."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Colorimeter",
+    "category_intro": "For objective colour measurement and comparison in liquids, solids or products using an instrument-specific colour scale.",
+    "question": "Why is instrumental colour measurement useful?",
+    "answer": "It reduces dependence on subjective visual judgement and enables consistent comparison between samples, batches and specifications."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Colorimeter",
+    "category_intro": "For objective colour measurement and comparison in liquids, solids or products using an instrument-specific colour scale.",
+    "question": "How should samples be prepared?",
+    "answer": "Use a consistent sample quantity, container, orientation and surface condition. Liquids should be homogeneous and free from bubbles unless the method states otherwise."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Colorimeter",
+    "category_intro": "For objective colour measurement and comparison in liquids, solids or products using an instrument-specific colour scale.",
+    "question": "Can ambient light affect the measurement?",
+    "answer": "Yes, particularly when the sample compartment is not fully enclosed. Follow the specified measurement geometry and close covers or ports correctly."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Colorimeter",
+    "category_intro": "For objective colour measurement and comparison in liquids, solids or products using an instrument-specific colour scale.",
+    "question": "What causes poor repeatability?",
+    "answer": "Inconsistent sample positioning, contamination, gloss variation, texture, sample thickness, stray light and inadequate calibration can reduce repeatability."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Colorimeter",
+    "category_intro": "For objective colour measurement and comparison in liquids, solids or products using an instrument-specific colour scale.",
+    "question": "How is the instrument calibrated?",
+    "answer": "Calibration is normally performed with instrument-specific white, black or liquid standards. Use clean, undamaged standards and follow the approved calibration sequence."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Probe Ultrasonicator",
+    "category_intro": "For high-intensity ultrasonic processing such as cell disruption, homogenization, dispersion, emulsification and particle-size reduction.",
+    "question": "What is a probe ultrasonicator?",
+    "answer": "A probe ultrasonicator transfers high-frequency mechanical energy directly into a liquid through a metal probe, producing intense cavitation."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Probe Ultrasonicator",
+    "category_intro": "For high-intensity ultrasonic processing such as cell disruption, homogenization, dispersion, emulsification and particle-size reduction.",
+    "question": "What is cavitation?",
+    "answer": "Cavitation is the formation and collapse of microscopic bubbles in a liquid. The resulting local forces drive disruption, mixing and dispersion."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Probe Ultrasonicator",
+    "category_intro": "For high-intensity ultrasonic processing such as cell disruption, homogenization, dispersion, emulsification and particle-size reduction.",
+    "question": "Why does the sample heat during sonication?",
+    "answer": "Part of the ultrasonic energy converts to heat. Use pulse mode, cooling baths or controlled processing intervals when temperature must be limited."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Probe Ultrasonicator",
+    "category_intro": "For high-intensity ultrasonic processing such as cell disruption, homogenization, dispersion, emulsification and particle-size reduction.",
+    "question": "How deep should the probe be immersed?",
+    "answer": "The probe should be immersed sufficiently to transfer energy without touching the vessel. Follow the probe-specific recommendation and avoid operating the tip in air."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Probe Ultrasonicator",
+    "category_intro": "For high-intensity ultrasonic processing such as cell disruption, homogenization, dispersion, emulsification and particle-size reduction.",
+    "question": "What causes foaming or aerosol generation?",
+    "answer": "Excessive amplitude, shallow immersion, unsuitable vessel geometry or gas entrainment can cause foaming. Reduce intensity and adjust the setup as needed."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Probe Ultrasonicator",
+    "category_intro": "For high-intensity ultrasonic processing such as cell disruption, homogenization, dispersion, emulsification and particle-size reduction.",
+    "question": "How should the probe be inspected?",
+    "answer": "Check the tip for erosion, pitting, bending or contamination. A damaged probe can reduce performance and may contaminate the sample."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Ultrasonic Cleaner",
+    "category_intro": "For cleaning jewellery, laboratory parts, instruments and components through ultrasonic cavitation in a cleaning bath.",
+    "question": "How does an ultrasonic cleaner work?",
+    "answer": "Ultrasonic transducers create cavitation bubbles in the cleaning liquid. Their collapse helps remove contamination from accessible and difficult-to-reach surfaces."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Ultrasonic Cleaner",
+    "category_intro": "For cleaning jewellery, laboratory parts, instruments and components through ultrasonic cavitation in a cleaning bath.",
+    "question": "What cleaning liquid should be used?",
+    "answer": "Use a solution compatible with the item, contamination and tank material. Follow the chemical supplier instructions and do not use flammable solvents in equipment not designed for them."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Ultrasonic Cleaner",
+    "category_intro": "For cleaning jewellery, laboratory parts, instruments and components through ultrasonic cavitation in a cleaning bath.",
+    "question": "Why should items not rest directly on the tank bottom?",
+    "answer": "Direct contact can reduce cleaning efficiency and may damage the tank or the item. Use the supplied basket or an appropriate holder."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Ultrasonic Cleaner",
+    "category_intro": "For cleaning jewellery, laboratory parts, instruments and components through ultrasonic cavitation in a cleaning bath.",
+    "question": "What is degassing?",
+    "answer": "Degassing removes trapped air from fresh cleaning liquid. This improves cavitation and should be completed before critical cleaning."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Ultrasonic Cleaner",
+    "category_intro": "For cleaning jewellery, laboratory parts, instruments and components through ultrasonic cavitation in a cleaning bath.",
+    "question": "Can all jewellery and stones be ultrasonically cleaned?",
+    "answer": "No. Some porous, treated, cracked or delicate stones and certain settings may be damaged. Confirm material compatibility before cleaning."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Ultrasonic Cleaner",
+    "category_intro": "For cleaning jewellery, laboratory parts, instruments and components through ultrasonic cavitation in a cleaning bath.",
+    "question": "How often should the cleaning solution be replaced?",
+    "answer": "Replace it when contaminated, when cleaning performance decreases or according to the process procedure. A visibly clean solution may still be chemically exhausted."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Milk Analyzer",
+    "category_intro": "For rapid measurement of selected milk-quality parameters in dairy collection, processing and quality-control applications.",
+    "question": "What does a milk analyzer measure?",
+    "answer": "Depending on the model and calibration, it may report parameters such as fat, solids-not-fat, protein, density, lactose, added water indication and temperature."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Milk Analyzer",
+    "category_intro": "For rapid measurement of selected milk-quality parameters in dairy collection, processing and quality-control applications.",
+    "question": "Why is sample mixing important?",
+    "answer": "Milk separates during standing. Gentle, thorough mixing produces a representative sample without creating excessive foam or air bubbles."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Milk Analyzer",
+    "category_intro": "For rapid measurement of selected milk-quality parameters in dairy collection, processing and quality-control applications.",
+    "question": "Does sample temperature affect the result?",
+    "answer": "Yes. Use the temperature range specified for the instrument and avoid testing samples that are too hot, too cold, partially frozen or poorly equilibrated."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Milk Analyzer",
+    "category_intro": "For rapid measurement of selected milk-quality parameters in dairy collection, processing and quality-control applications.",
+    "question": "Why is regular cleaning necessary?",
+    "answer": "Milk residues can block the flow path, support microbial growth and cause carryover or inaccurate measurements. Follow the prescribed rinse and cleaning sequence."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Milk Analyzer",
+    "category_intro": "For rapid measurement of selected milk-quality parameters in dairy collection, processing and quality-control applications.",
+    "question": "Can the analyzer replace reference laboratory methods?",
+    "answer": "It is useful for rapid routine screening and process control. Regulatory or dispute testing may still require an approved reference method."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Milk Analyzer",
+    "category_intro": "For rapid measurement of selected milk-quality parameters in dairy collection, processing and quality-control applications.",
+    "question": "Why might results differ between milk types?",
+    "answer": "Species, composition, processing and adulteration can affect the measurement. Use the correct calibration for the intended milk type and application."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Tablet Hardness Tester",
+    "category_intro": "For measuring the mechanical strength of pharmaceutical tablets during development, production and quality control.",
+    "question": "What does a tablet hardness tester measure?",
+    "answer": "It measures the force required to break a tablet under controlled compression. The result helps assess mechanical strength and process consistency."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Tablet Hardness Tester",
+    "category_intro": "For measuring the mechanical strength of pharmaceutical tablets during development, production and quality control.",
+    "question": "Is hardness the same as friability?",
+    "answer": "No. Hardness measures breaking force, while friability measures the tendency of tablets to chip, abrade or lose mass during handling."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Tablet Hardness Tester",
+    "category_intro": "For measuring the mechanical strength of pharmaceutical tablets during development, production and quality control.",
+    "question": "Why is tablet orientation important?",
+    "answer": "Tablet shape, score line and orientation can change how the force is applied. Use a consistent orientation defined in the test method."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Tablet Hardness Tester",
+    "category_intro": "For measuring the mechanical strength of pharmaceutical tablets during development, production and quality control.",
+    "question": "How many tablets should be tested?",
+    "answer": "The quantity should follow the approved procedure or applicable pharmacopoeial and quality requirements. A statistically meaningful sample is needed for batch evaluation."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Tablet Hardness Tester",
+    "category_intro": "For measuring the mechanical strength of pharmaceutical tablets during development, production and quality control.",
+    "question": "What can cause variable hardness results?",
+    "answer": "Variation may arise from tablet thickness, compression force, formulation, moisture, orientation, misalignment, dirty jaws or insufficient calibration."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Tablet Hardness Tester",
+    "category_intro": "For measuring the mechanical strength of pharmaceutical tablets during development, production and quality control.",
+    "question": "How is performance verified?",
+    "answer": "Check force accuracy and mechanical alignment using suitable certified standards or service tools according to the maintenance and calibration schedule."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Rotational Viscometer",
+    "category_intro": "For measuring the resistance of liquids and semi-solids to rotational flow under defined test conditions.",
+    "question": "What is a rotational viscometer?",
+    "answer": "A rotational viscometer measures the torque required to rotate a spindle in a sample at a selected speed and reports viscosity based on the instrument geometry."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Rotational Viscometer",
+    "category_intro": "For measuring the resistance of liquids and semi-solids to rotational flow under defined test conditions.",
+    "question": "Why are spindle and speed selection important?",
+    "answer": "The selected combination determines the measurement range and applied shear conditions. Use a combination that keeps torque within the recommended operating range."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Rotational Viscometer",
+    "category_intro": "For measuring the resistance of liquids and semi-solids to rotational flow under defined test conditions.",
+    "question": "Does temperature affect viscosity?",
+    "answer": "Yes, often significantly. Control and record sample temperature for repeatable and comparable results."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Rotational Viscometer",
+    "category_intro": "For measuring the resistance of liquids and semi-solids to rotational flow under defined test conditions.",
+    "question": "What is the difference between Newtonian and non-Newtonian liquids?",
+    "answer": "Newtonian liquids have viscosity that is relatively independent of shear rate. Non-Newtonian materials may change apparent viscosity with spindle speed, time or shear history."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Rotational Viscometer",
+    "category_intro": "For measuring the resistance of liquids and semi-solids to rotational flow under defined test conditions.",
+    "question": "Why must air bubbles be avoided?",
+    "answer": "Bubbles alter the spindle-sample interaction and can produce unstable or falsely low results."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Rotational Viscometer",
+    "category_intro": "For measuring the resistance of liquids and semi-solids to rotational flow under defined test conditions.",
+    "question": "How should the instrument be checked?",
+    "answer": "Verify level, spindle condition, zero status and performance using suitable certified viscosity standards at controlled temperature."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Ice Flake Maker",
+    "category_intro": "For producing flake ice used in sample cooling, laboratory storage, healthcare, food processing and temperature-sensitive workflows.",
+    "question": "What is an ice flake maker?",
+    "answer": "It produces small, irregular flakes of ice that provide broad surface contact and conform easily around containers or products."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Ice Flake Maker",
+    "category_intro": "For producing flake ice used in sample cooling, laboratory storage, healthcare, food processing and temperature-sensitive workflows.",
+    "question": "What water quality should be used?",
+    "answer": "Use feed water that meets the manufacturer requirements. Poor water quality can cause scale, odour, reduced output and hygiene problems."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Ice Flake Maker",
+    "category_intro": "For producing flake ice used in sample cooling, laboratory storage, healthcare, food processing and temperature-sensitive workflows.",
+    "question": "Why does ice production decrease?",
+    "answer": "Possible causes include high ambient or inlet-water temperature, inadequate ventilation, scale buildup, restricted water supply, dirty condensers or refrigeration faults."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Ice Flake Maker",
+    "category_intro": "For producing flake ice used in sample cooling, laboratory storage, healthcare, food processing and temperature-sensitive workflows.",
+    "question": "How should the storage bin be maintained?",
+    "answer": "Keep the bin clean and closed, remove old ice, follow the sanitization schedule and avoid using the bin as a general storage compartment."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Ice Flake Maker",
+    "category_intro": "For producing flake ice used in sample cooling, laboratory storage, healthcare, food processing and temperature-sensitive workflows.",
+    "question": "Is the ice suitable for direct consumption?",
+    "answer": "Only when the machine, water supply and sanitation program are specifically managed for food-grade use. Laboratory-use ice should not automatically be treated as potable."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Ice Flake Maker",
+    "category_intro": "For producing flake ice used in sample cooling, laboratory storage, healthcare, food processing and temperature-sensitive workflows.",
+    "question": "What installation conditions are important?",
+    "answer": "Provide adequate ventilation, drainage, level support, suitable power and water connections, and the ambient conditions specified for the unit."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Coating Thickness Analyzer",
+    "category_intro": "For non-destructive measurement of coating thickness on suitable metallic substrates using the instrument-specific measurement principle.",
+    "question": "What is a coating thickness analyzer?",
+    "answer": "It measures the thickness of a coating or plating layer without cutting the part, provided that the coating-substrate combination is compatible with the selected method."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Coating Thickness Analyzer",
+    "category_intro": "For non-destructive measurement of coating thickness on suitable metallic substrates using the instrument-specific measurement principle.",
+    "question": "Which measurement methods are commonly used?",
+    "answer": "Depending on the application, instruments may use magnetic induction, eddy current, X-ray fluorescence or other techniques."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Coating Thickness Analyzer",
+    "category_intro": "For non-destructive measurement of coating thickness on suitable metallic substrates using the instrument-specific measurement principle.",
+    "question": "Why must the substrate and coating be identified?",
+    "answer": "The measurement principle and calibration depend on the electrical, magnetic and compositional properties of both layers."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Coating Thickness Analyzer",
+    "category_intro": "For non-destructive measurement of coating thickness on suitable metallic substrates using the instrument-specific measurement principle.",
+    "question": "Does surface shape affect the result?",
+    "answer": "Yes. Curvature, roughness, edge proximity, part thickness and probe position can affect readings. Use suitable calibration standards and consistent positioning."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Coating Thickness Analyzer",
+    "category_intro": "For non-destructive measurement of coating thickness on suitable metallic substrates using the instrument-specific measurement principle.",
+    "question": "How should the analyzer be calibrated?",
+    "answer": "Calibrate or verify it using an uncoated reference substrate and certified foils or standards that represent the expected measurement range and geometry."
+  },
+  {
+    "group": "Laboratory & Analytical Instruments",
+    "category": "Coating Thickness Analyzer",
+    "category_intro": "For non-destructive measurement of coating thickness on suitable metallic substrates using the instrument-specific measurement principle.",
+    "question": "Why should several readings be taken?",
+    "answer": "Coatings may be non-uniform and individual readings can vary with local surface conditions. Multiple readings provide a more representative result."
+  }
+]

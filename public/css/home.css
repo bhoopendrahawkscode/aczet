@@ -1,0 +1,875 @@
+/* ==========================================================================
+       ACZET BRAND HOMEPAGE DESIGN SYSTEM
+       Signature Colors: Aczet Brand Blue (#173887 / #07429F), Precision Blue (#006699), Hover (#004D73 / #102761)
+       Surfaces: Pure White (#FFFFFF), Crisp Gray (#F4F6F8), Borders: 1px (#D9D9D9)
+       Typography: Pure Corporate Arial Sans-Serif
+       ========================================================================== */
+
+    .mt-home-page {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        background-color: #FFFFFF;
+        color: #333333;
+        line-height: 1.5;
+        font-size: 14px;
+        position: relative;
+    }
+
+    .mt-wrap {
+        width: min(1020px, calc(100% - 48px));
+        margin: 0 auto;
+    }
+
+    /* -------------------------------------------------------------
+       0. FLOATING ACTION TAB ("I want to...")
+       ------------------------------------------------------------- */
+    .mt-floating-tab {
+        position: fixed;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 999;
+    }
+
+    .mt-floating-tab-link {
+        background-color: #173887;
+        color: #FFFFFF !important;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 14px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        text-decoration: none;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        box-shadow: -2px 3px 12px rgba(0,0,0,0.18);
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        cursor: pointer;
+        transition: background-color 0.15s ease;
+    }
+
+    .mt-floating-tab-link:hover {
+        background-color: #102761;
+    }
+
+    /* -------------------------------------------------------------
+       1. HERO BANNER SHOWCASE (MT.COM FULL-WIDTH PHOTOGRAPHIC)
+       ------------------------------------------------------------- */
+    .mt-hero-viewport {
+        position: relative;
+        width: 100%;
+        min-height: 480px;
+        background: #003854;
+        overflow: hidden;
+    }
+
+    .mt-hero-slider {
+        position: relative;
+        width: 100%;
+        min-height: 480px;
+    }
+
+    .mt-hero-slide {
+        position: absolute;
+        inset: 0;
+        background-size: cover;
+        background-position: center right;
+        display: flex;
+        align-items: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.6s ease, visibility 0.6s ease;
+    }
+
+    .mt-hero-slide.active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .mt-hero-overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(90deg, rgba(0, 35, 60, 0.92) 0%, rgba(0, 35, 60, 0.72) 45%, rgba(0, 35, 60, 0.15) 100%);
+    }
+
+    .mt-hero-content {
+        position: relative;
+        z-index: 2;
+        padding: 70px 0 90px;
+        max-width: 800px;
+    }
+
+    .mt-hero-title {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: clamp(28px, 4vw, 46px);
+        font-weight: 700;
+        line-height: 1.15;
+        color: #FFFFFF;
+        margin: 0 0 16px;
+        letter-spacing: -0.01em;
+    }
+
+    .mt-hero-subtitle {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 18px;
+        color: #FFFFFF;
+        line-height: 1.45;
+        margin: 0 0 28px;
+        font-weight: 400;
+        max-width: 650px;
+    }
+
+    .btn-aczet-hero-btn,
+    .btn-mt-hero-green {
+        background: linear-gradient(135deg, #0284C7 0%, #0369A1 100%);
+        color: #FFFFFF !important;
+        border: none;
+        border-radius: 10px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 800;
+        padding: 12px 28px;
+        text-decoration: none;
+        display: inline-block;
+        box-shadow: 0 4px 14px rgba(2, 132, 199, 0.28);
+        transition: all 0.2s ease;
+    }
+
+    .btn-aczet-hero-btn:hover,
+    .btn-mt-hero-green:hover {
+        background: linear-gradient(135deg, #0EA5E9 0%, #0284C7 100%);
+        transform: translateY(-2px);
+        box-shadow: 0 8px 24px rgba(2, 132, 199, 0.45);
+        color: #FFFFFF !important;
+    }
+
+    /* Carousel Nav (Bottom Left) */
+    .mt-hero-nav-wrap {
+        position: absolute;
+        bottom: 24px;
+        left: 0;
+        right: 0;
+        z-index: 5;
+    }
+
+    .mt-hero-nav-bar {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .mt-hero-nav-btn {
+        background: transparent;
+        border: none;
+        color: #FFFFFF;
+        font-size: 14px;
+        cursor: pointer;
+        padding: 4px;
+        opacity: 0.85;
+    }
+
+    .mt-hero-nav-btn:hover {
+        opacity: 1;
+    }
+
+    .mt-hero-indicators {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .mt-hero-indicator {
+        width: 14px;
+        height: 4px;
+        background: rgba(255, 255, 255, 0.4);
+        border-radius: 1px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+    }
+
+    .mt-hero-indicator.active {
+        background: #FFFFFF;
+        width: 22px;
+    }
+
+    /* -------------------------------------------------------------
+       2. MT UNIFIED DISCOVERY & QUICK ACTION HUB (Exact MT.com Layout)
+       ------------------------------------------------------------- */
+    .mt-hub-section {
+        background-color: #F4F6F8;
+        border-bottom: 1px solid #E5E7EB;
+        padding: 40px 0 54px;
+    }
+
+    /* MT Search Bar */
+    .mt-search-wrapper {
+        width: 100%;
+        max-width: 860px;
+        margin: 0 auto 34px;
+    }
+
+    .mt-search-bar {
+        width: 100%;
+        display: flex;
+        align-items: stretch;
+        border: 1px solid #D0D5DD;
+        background: #FFFFFF;
+        border-radius: 4px;
+        height: 48px;
+        position: relative;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .mt-search-bar:focus-within {
+        border-color: #006699;
+        box-shadow: 0 0 0 3px rgba(0, 102, 153, 0.12), 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .mt-search-category-dropdown {
+        position: relative;
+        min-width: 160px;
+        border-right: 1px solid #E5E7EB;
+        background: #FFFFFF;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+
+    .mt-search-cat-toggle {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        padding: 0 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 13.5px;
+        font-weight: 500;
+        color: #1F2937;
+        cursor: pointer;
+    }
+
+    .mt-search-cat-toggle i {
+        font-size: 11px;
+        color: #6B7280;
+        transition: transform 0.2s ease;
+    }
+
+    .mt-search-cat-toggle[aria-expanded="true"] i {
+        transform: rotate(180deg);
+    }
+
+    .mt-search-cat-list {
+        position: absolute;
+        top: calc(100% + 4px);
+        left: 0;
+        width: 210px;
+        background: #FFFFFF;
+        border: 1px solid #D0D5DD;
+        border-radius: 4px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+        z-index: 100;
+        display: none;
+        overflow: hidden;
+    }
+
+    .mt-search-cat-list.open {
+        display: block;
+        animation: mtDropdownFade 0.15s ease;
+    }
+
+    .mt-search-cat-opt {
+        padding: 10px 16px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 13px;
+        color: #374151;
+        cursor: pointer;
+        border-bottom: 1px solid #F3F4F6;
+        transition: all 0.15s ease;
+    }
+
+    .mt-search-cat-opt:last-child {
+        border-bottom: none;
+    }
+
+    .mt-search-cat-opt:hover, 
+    .mt-search-cat-opt.active {
+        background: #F4F6F8;
+        color: #006699;
+        font-weight: 600;
+    }
+
+    .mt-search-input-wrap {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding: 0 16px;
+    }
+
+    .mt-search-icon {
+        color: #6B7280;
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+    .mt-search-input {
+        width: 100%;
+        border: none;
+        outline: none;
+        background: transparent;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 14px;
+        color: #111827;
+    }
+
+    .mt-search-input::placeholder {
+        color: #9CA3AF;
+        font-size: 13.5px;
+    }
+
+    .mt-search-submit-btn {
+        width: 48px;
+        background-color: #173887;
+        border: none;
+        color: #FFFFFF;
+        font-size: 15px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.15s ease;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        flex-shrink: 0;
+    }
+
+    .mt-search-submit-btn:hover {
+        background-color: #102761;
+    }
+
+    /* -------------------------------------------------------------
+       3. SIX QUICK ACTION CARDS (3x2 GRID - Exact MT.com Layout)
+       ------------------------------------------------------------- */
+    .mt-quick-cards-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .mt-quick-card {
+        background: #FFFFFF;
+        border: 1px solid #E2E8F0;
+        border-radius: 4px;
+        padding: 22px 24px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-decoration: none;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+        transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease;
+        min-height: 124px;
+        box-sizing: border-box;
+    }
+
+    .mt-quick-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 24px -4px rgba(0, 102, 153, 0.14), 0 4px 8px -2px rgba(0, 0, 0, 0.03);
+        border-color: #006699;
+    }
+
+    .mt-quick-card-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin-bottom: 12px;
+    }
+
+    .mt-quick-head-left {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        min-width: 0;
+    }
+
+    .mt-card-icon {
+        color: #006699;
+        font-size: 20px;
+        flex-shrink: 0;
+        line-height: 1;
+        transition: transform 0.2s ease;
+    }
+
+    .mt-quick-card:hover .mt-card-icon {
+        transform: scale(1.08);
+    }
+
+    .mt-quick-title {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 15.5px;
+        font-weight: 700;
+        color: #006699;
+        margin: 0;
+        line-height: 1.3;
+        letter-spacing: -0.01em;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: color 0.15s ease;
+    }
+
+    .mt-quick-card:hover .mt-quick-title {
+        color: #004D73;
+    }
+
+    .mt-arrow {
+        font-size: 13px;
+        color: #006699;
+        flex-shrink: 0;
+        line-height: 1;
+        transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), color 0.15s ease;
+    }
+
+    .mt-quick-card:hover .mt-arrow {
+        transform: translateX(4px);
+        color: #004D73;
+    }
+
+    .mt-quick-desc {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 13px;
+        color: #4B5563;
+        line-height: 1.55;
+        margin: 0;
+        width: 100%;
+    }
+
+    /* -------------------------------------------------------------
+       4. SECTION: FIND YOUR SOLUTION
+       ------------------------------------------------------------- */
+    .mt-solutions-section {
+        background: #FFFFFF;
+        padding: 20px 0 60px;
+    }
+
+    .mt-section-header {
+        margin-bottom: 26px;
+    }
+
+    .aczet-accent-bar,
+    .mt-green-bar {
+        width: 140px;
+        height: 3px;
+        background-color: #173887;
+        margin-bottom: 12px;
+    }
+
+    .mt-section-title {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        color: #006699;
+        margin: 0;
+    }
+
+    .mt-solutions-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .mt-solution-card {
+        background: #FFFFFF;
+        border: 1px solid #D9D9D9;
+        border-radius: 2px;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        transition: box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+
+    .mt-solution-card:hover {
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+        border-color: #B5B5B5;
+    }
+
+    .mt-solution-img-box {
+        height: 180px;
+        padding: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #FFFFFF;
+        border-bottom: 1px solid #E5E5E5;
+    }
+
+    .mt-solution-img-box img {
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    .mt-solution-body {
+        padding: 16px 18px 22px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mt-solution-title {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        color: #006699;
+        margin: 0 0 8px;
+        line-height: 1.3;
+    }
+
+    .mt-solution-card:hover .mt-solution-title {
+        color: #004D73;
+    }
+
+    .mt-solution-desc {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 12px;
+        color: #333333;
+        line-height: 1.45;
+        margin: 0;
+    }
+
+    /* -------------------------------------------------------------
+       5. SECTION: SERVICE AND SUPPORT
+       ------------------------------------------------------------- */
+    .mt-services-section {
+        background: #FFFFFF;
+        padding: 30px 0 70px;
+        border-top: 1px solid #E5E7EB;
+    }
+
+    .mt-services-list {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .mt-service-card {
+        background: #FFFFFF;
+        border: 1px solid #D9D9D9;
+        border-radius: 2px;
+        display: grid;
+        grid-template-columns: 320px 1fr;
+        overflow: hidden;
+        transition: box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+
+    .mt-service-card:hover {
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+        border-color: #B5B5B5;
+    }
+
+    .mt-service-graphic {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .mt-service-content {
+        padding: 28px 36px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .mt-service-title {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #006699;
+        margin: 0 0 14px;
+    }
+
+    .mt-service-bullets {
+        list-style: square;
+        padding-left: 20px;
+        margin: 0 0 20px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 13px;
+        color: #333333;
+        line-height: 1.7;
+    }
+
+    .btn-mt-learn-more {
+        background-color: #FFFFFF;
+        color: #006699 !important;
+        border: 1px solid #006699;
+        border-radius: 2px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        padding: 8px 22px;
+        text-decoration: none;
+        display: inline-block;
+        align-self: flex-start;
+        transition: background-color 0.15s ease, color 0.15s ease;
+    }
+
+    .btn-mt-learn-more:hover {
+        background-color: #F4F6F8;
+        color: #004D73 !important;
+        border-color: #004D73;
+    }
+
+    /* -------------------------------------------------------------
+       6. SECTION: EVENTS (EXACT MT.COM LAYOUT)
+       ------------------------------------------------------------- */
+    .mt-events-section {
+        background: #FFFFFF;
+        padding: 30px 0 60px;
+    }
+
+    .mt-events-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 22px;
+        width: 100%;
+    }
+
+    .mt-event-card {
+        background: #FFFFFF;
+        border: 1px solid #D9D9D9;
+        border-radius: 2px;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: inherit;
+        overflow: hidden;
+        transition: box-shadow 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .mt-event-card:hover {
+        box-shadow: 0 6px 18px rgba(0, 56, 84, 0.09);
+        border-color: #B5B5B5;
+        transform: translateY(-2px);
+    }
+
+    .mt-event-img-wrap {
+        position: relative;
+        height: 185px;
+        width: 100%;
+        overflow: hidden;
+        background: #F4F6F8;
+    }
+
+    .mt-event-img-wrap img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.3s ease;
+    }
+
+    .mt-event-card:hover .mt-event-img-wrap img {
+        transform: scale(1.03);
+    }
+
+    .mt-event-overlay-badge {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background: #173887;
+        color: #FFFFFF;
+        padding: 8px 12px;
+        border-radius: 2px;
+        font-size: 11.5px;
+        line-height: 1.4;
+        font-weight: 700;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        z-index: 2;
+    }
+
+    .mt-event-overlay-list {
+        list-style: disc;
+        margin: 0;
+        padding-left: 14px;
+    }
+
+    .mt-event-overlay-list li {
+        margin-bottom: 2px;
+        white-space: nowrap;
+    }
+
+    .mt-event-overlay-list li:last-child {
+        margin-bottom: 0;
+    }
+
+    .mt-event-date-badge {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: #003854;
+        color: #FFFFFF;
+        padding: 4px 10px;
+        font-size: 11.5px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 1.25;
+        z-index: 2;
+    }
+
+    .mt-event-date-more {
+        display: block;
+        font-size: 10px;
+        font-weight: 600;
+        opacity: 0.92;
+    }
+
+    .mt-event-body {
+        padding: 16px 18px 20px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .mt-event-type {
+        font-size: 12px;
+        color: #64748B;
+        margin-bottom: 6px;
+        font-weight: 500;
+        display: block;
+    }
+
+    .mt-event-card-title {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        color: #003854;
+        margin: 0 0 8px;
+        line-height: 1.35;
+        transition: color 0.15s ease;
+    }
+
+    .mt-event-card:hover .mt-event-card-title {
+        color: #006699;
+    }
+
+    .mt-event-desc {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 12.5px;
+        color: #475569;
+        line-height: 1.5;
+        margin: 0 0 16px;
+        flex: 1;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .mt-event-footer {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        font-size: 12px;
+        color: #64748B;
+        margin-top: auto;
+        padding-top: 10px;
+        border-top: 1px solid #F1F5F9;
+    }
+
+    .mt-event-footer i {
+        font-size: 12px;
+        color: #64748B;
+    }
+
+    .mt-events-cta-wrap {
+        display: flex;
+        justify-content: center;
+        margin-top: 36px;
+    }
+
+    .btn-aczet-events-btn,
+    .btn-mt-events-green {
+        background: linear-gradient(135deg, #0284C7 0%, #0369A1 100%);
+        color: #FFFFFF !important;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 13.5px;
+        font-weight: 800;
+        padding: 10px 32px;
+        border-radius: 10px;
+        text-decoration: none;
+        display: inline-block;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 4px 14px rgba(2, 132, 199, 0.28);
+        transition: all 0.2s ease;
+    }
+
+    .btn-aczet-events-btn:hover,
+    .btn-mt-events-green:hover {
+        background: linear-gradient(135deg, #0EA5E9 0%, #0284C7 100%);
+        transform: translateY(-2px);
+        box-shadow: 0 8px 24px rgba(2, 132, 199, 0.45);
+        color: #FFFFFF !important;
+    }
+
+    /* Responsive */
+    @media (max-width: 980px) {
+        .mt-search-bar {
+            max-width: 100%;
+        }
+        .mt-quick-cards-grid {
+            max-width: 100%;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .mt-solutions-grid,
+        .mt-events-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 768px) {
+        .mt-service-card {
+            grid-template-columns: 1fr;
+        }
+        .mt-service-graphic {
+            height: 160px;
+        }
+    }
+
+    @media (max-width: 640px) {
+        .mt-quick-cards-grid,
+        .mt-solutions-grid,
+        .mt-events-grid {
+            grid-template-columns: 1fr;
+        }
+        .mt-search-bar {
+            flex-direction: column;
+            height: auto;
+        }
+        .mt-search-category-dropdown {
+            width: 100%;
+            border-right: none;
+            border-bottom: 1px solid #D9D9D9;
+            height: 44px;
+        }
+        .mt-search-input-wrap {
+            height: 44px;
+        }
+        .mt-search-submit-btn {
+            width: 100%;
+            height: 44px;
+            border-radius: 0;
+        }
+    }

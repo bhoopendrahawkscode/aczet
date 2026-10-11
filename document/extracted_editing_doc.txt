@@ -1,0 +1,571 @@
+Website Product Flow & Data Structure Explanation.
+
+The website product section will be controlled using three structured sheets:
+
+Sheet 1 – Product Listing & country wise sheet
+
+Sheet 2 – Filter Mapping and Short product description
+
+Sheet 3 –Technical Data sheet
+
+Each sheet has a specific purpose and must be integrated properly into the website backend.
+
+Overview:
+
+The navigation interface for the Laboratory Weighing section on the website is designed to be interactive and user-friendly. The user will experience a dynamic dropdown menu with clear hover effects, making it easier to explore product categories and subcategories. 1. Main Category:
+
+Name: Laboratory Weighing
+
+Location: Displayed at the top-level navigation.
+
+Appearance:
+
+Each category is represented as a rectangular block with a label (e.g., Laboratory Weighing)
+
+The background of the category block will be in a  neutral color
+
+The colour of the text will be Black and turquoise colour
+
+2. Hover Effect:
+
+Action: When the user hovers their cursor over a category block (e.g., Laboratory Weighing), the color of the block will change to highlight that the user is interacting with that category. [the drop down will work on both effect, pointing the cursor (navigation)and click both]
+
+Purpose: This effect serves as an indication of interactivity, letting the user know that the category is clickable and will reveal more options.
+
+When the user hovers the cursor over a category block (e.g., Laboratory Weighing), the category block background/highlight will change to turquoise colour to indicate interaction.
+
+When the user clicks a category or keeps the cursor positioned over it (active hover state), the selected category will remain highlighted in turquoise colour to show the current focus/selection.
+
+3. Subcategory Dropdown:
+
+Action: Once the user hovers over a category (e.g., Laboratory Weighing), additional options (subcategories) will appear next to  the category block.
+
+Subcategories:
+
+Laboratory Balances
+
+Microbalances
+
+Analytical Balances
+
+Precision Balances and Scales
+
+Density Scales
+
+Moisture Analyzers
+
+Test Weights
+
+Accessories for Laboratory weighing
+
+These will be shown in a  side panel ,drop-down format, presenting further specific categories under the main product category.
+
+4. Subcategory Interaction:
+
+Appearance: The subcategories will be displayed in a vertical list that appears when hovering over the main category block.
+
+Hover Effect for Subcategories: As the user hovers over each subcategory, the background color will slightly change to indicate which subcategory is currently selected.
+
+Behavior: The subcategory panel should disappear when the user moves their cursor away from the category block and its subcategories.
+
+5. Visual Styling and Aesthetic:
+
+Color Scheme:
+
+The main categories will use a light background color (e.g., light gray ), which changes to a highlighted color  (green) when hovered.
+
+The subcategory dropdown will be presented with a clean, white background, and the text will match the website’s font style.
+
+Spacing & Alignment:
+
+There will be adequate spacing between the main categories to make the navigation clean and easy to read.
+
+The subcategory dropdowns should align perfectly with their parent categories, ensuring a seamless and organized structure.
+
+Responsiveness: The design should be responsive, ensuring that it works well on both desktop and mobile devices.
+
+Laboratory Balances – Interface Overview
+
+Once you click on Laboratory Balances, the following interface will appear:
+
+Banner Section A prominent banner image will be displayed at the top of the page, showcasing the elegance and precision of your laboratory balances.
+
+Under that Short Description About Laboratory Balances
+
+Also there will be breadcrumb navigationExample: Home > Laboratory Weighing > Laboratory Balances
+
+This type of breadcrumb navigation will come all over the website and if some click in between any breadcrumb it will redirected to that selected page.
+
+Laboratory Balances Product Listing
+
+The Laboratory Balances section will feature a curated collection of products under this category (~189 results ±5, subject to updates).
+
+The products displayed in the right-side product listing area shall appear in the following sequence/order:
+
+Ultra-Microbalance
+
+Microbalances
+
+Analytical Balances
+
+Precision Balances and Scales
+
+Moisture Analyzers
+
+Density Scales
+
+Test Weights
+
+Accessories for Laboratory Weighing
+
+Product Sequencing Requirement: Products should be grouped and presented in the above order within the listing results, rather than appearing in a random or mixed sequence. This ensures logical product hierarchy, easier navigation, and improved browsing experience for users.
+
+Filter Alignment: The left-side category filter should follow the same sequence as the product listing on the right for consistency in navigation and product discovery.
+
+Short Product Description you have to pick the short description from the Filter Mapping and Short product description sheet.
+
+You will find all the product short description, according to the country wise sheet filter laboratory balance under that you will find a list of product, pick the short description according to it
+
+Page Structure for Laboratory Balances
+
+1. Filter Section (Left Sidebar)
+
+Located on the left-hand side of the page Each filter will have checkboxes so users can select multiple options at once, narrowing down their product choices.  This will be the filter That falls under laboratory balances. [ You can find this Individual filter in Product_Category_Filter_Mapping. This filter will be a mixture of all the filter that falls under laboratory balances.  - Category - Series - Types - Weighing Capacity - Readability - Display - Class - Calibration - Weighing Sensor - Readability MC - Density Resolution  - OIML Class - Nominal Value
+
+2. Product Display Section (Right Hand Side)
+
+This section will display the selected product's information as shown in the screenshot.
+
+Category Filter The Category section allows users to quickly filter and view specific types of laboratory products. Each category is aligned vertically with selectable checkboxes so users can easily narrow down the product list. The available categories  include:
+
+Ultra-Microbalances
+
+Microbalances
+
+Analytical Balances
+
+Precision Balances and Scales
+
+Moisture Analyzers
+
+Density Scales
+
+Test Weights
+
+Accessories for Laboratory Weighing
+
+All category options are properly aligned in a vertical list with checkboxes, enabling users to select one or multiple categories to filter the results displayed on the page.   Category Filter Functionality  Next to the Category title, there is an arrow icon that works as a dropdown control. When the user clicks on this arrow, the complete list of available categories will expand or collapse, allowing the user to easily view and select different product categories.
+
+This helps users quickly filter products and navigate through the available laboratory balance categories.
+
+When a user selects Microbalances from the Category filter, only the products that belong to the Microbalance category will be displayed on the product list. The system will also show the total number of products available under this category (for example, 18 Results).
+
+Users can select one or more categories from the Category filter. If a single category such as Microbalances is selected, only products under the Microbalance category will be displayed along with the total number of results.
+
+If multiple categories are selected (for example, Microbalances and Analytical Balances), the system will display all products that belong to both selected categories. The results count will update automatically to show the total number of products matching the selected filters. Series Filter Behavior with Category Selection
+
+When a Category such as Microbalances is selected, the product list will update to display only the products that belong to the Microbalance category.
+
+If the user then expands the Series dropdown, only the series that belong to the selected category (Microbalances) will be available for selection. Each series will also display the number of products available in that series (for example, AXR (9), CM (9)).
+
+Series that do not contain any products under the selected category will automatically become unavailable or disabled (shown as 0) and cannot be selected.
+
+This ensures that users only see relevant filter options based on the selected category, making the filtering process easier and more accurate.   Type Filter Functionality
+
+Under the Microbalances category, there are four available product types:
+
+Microbalance – 7 products
+
+Filter Microbalance – 7 products
+
+Pipettes Microbalance – 2 products
+
+Stent Microbalance – 1 product
+
+Only the product types that belong to the selected category will remain active and selectable. The remaining product types will appear blurred and locked, indicating that they are not applicable to the current category selection.
+
+For example, when Microbalances is selected, only the above four related types will be available. If the user selects another category, the available types will automatically change according to the products under that selected category.
+
+Weighing Capacity Filter – Microbalance Category
+
+The Weighing Capacity filter will display all available capacity options. However, only the capacities applicable to the selected product category will remain active.
+
+For the Microbalance category, the available weighing range is 2 g to 11 g:
+
+2 g (5) – 5 products available
+
+5 g (3) – 3 products available
+
+6 g (5) – 5 products available
+
+11 g (5) – 5 products available
+
+These four options will be selectable. All other weighing capacities will appear greyed out or disabled, because no Microbalance products are available in those capacity ranges.
+
+The number shown in brackets indicates how many products fall under that particular weighing capacity.
+
+Capacity ranges that do not belong to the selected category (Microbalances) will be automatically disabled / blocked, and the user will not be able to select them.
+
+This ensures the user can select only valid capacity ranges with available products, and the count helps the user understand how many products match that filter.
+
+Readability Filter
+
+Displays all available readability values with checkboxes.
+
+Users can select one or multiple readability options.
+
+Only products matching the selected readability will be displayed.
+
+The filter is expandable/collapsible using the arrow icon.
+
+Readability values are dynamically populated based on available product data.
+
+Display Filter
+
+Displays all available display types with checkboxes.
+
+Users can select one or multiple display options to filter products.
+
+Only products matching the selected display type(s) will be displayed.
+
+The filter section is expandable/collapsible using the arrow icon.
+
+Display options are dynamically generated based on the available products in the selected category.
+
+Class Filter
+
+Displays available product classes (e.g., Premium, Elite, Standard, Basic) with checkboxes.
+
+Users can select one or multiple classes to narrow down the product list.
+
+Only products belonging to the selected class(es) are displayed.
+
+The filter is expandable/collapsible using the arrow icon.
+
+Product counts are shown beside each class and are updated dynamically based on the available products.
+
+Comparison Feature Overview
+
+1. Step 1: Select Products to Compare
+
+When a user clicks on the “Compare” checkbox next to a product, the product comparison feature will be activated.A “Compare” button will appear at the bottom of the product listing page, indicating that one or more products have been selected.The user can continue selecting similar products and add a maximum of 10 products to the comparison list.
+
+The interface should also display the number of selected products, for example:
+
+Compare Products (2/10)
+
+If the user tries to select more than 10 products, the system should prevent the selection and display the following message:
+
+Only products from the same or similar product category can be compared. If the user attempts to select an unrelated product, the system will not allow the selection and will display an appropriate message.
+
+For example, CY 224C and CPR 02 belong to different product categories and therefore cannot be compared.
+
+Suggested message:
+
+“The selected product belongs to a different category and cannot be added to this comparison. Please select a similar product.”
+
+2. Step 2: Activate the Comparison View
+
+After selecting at least two similar products, the user can click on the “Compare” button.
+
+A comparison interface will open, displaying all selected products side-by-side.
+
+The comparison interface can display a minimum of 2 products and a maximum of 10 products at a time.
+
+Each selected product will be shown with its key features and specifications for easy comparison.
+
+3. Step 3: Side-by-Side Product Comparison
+
+All selected products will be displayed side-by-side in the comparison interface.
+
+The comparison view will show the following details for each product:
+
+If many products are selected, the comparison table should support horizontal scrolling so that users can easily review all selected products.
+
+Users should also be able to remove any product from the comparison interface without returning to the product listing page.
+
+4. Print and Download Comparison Sheet
+
+A “Print” button will be available in the comparison interface, allowing users to print the complete product comparison sheet.
+
+The selected product comparison can also be downloaded or shared in the following formats:
+
+PDF
+
+The exported PDF should include the product names, images, key features, and complete technical specifications of all selected products.
+
+The comparison sheet should support a maximum of 10 products.
+
+Product Detailed Structure – Laboratory Balances Page
+
+1. Initial Product View (Before Clicking)
+
+Product Name and Image displayed at the top.
+
+Short Description of the product
+
+Two buttons available for further action:
+
+Get a Quote
+
+After Clicking on the Product (Detailed View)
+
+The short description remains constant and continues to provide users with key information about the selected product.
+
+Additional Buttons:
+
+Request Info: Users can click this to get more detailed specifications.
+
+Get a Quote: Users can click this to inquire about the product's pricing.
+
+Product Highlights (as shown in the image): Based on Sheet 3 (Technical Data Sheet), you’ll display specific technical pointers under Product Highlights. Under that,
+
+Specifications, Documentation, and Accessories
+
+Underneath the highlights, three additional sections will be shown with a simple expandable format (accordion-style): as shown in the image
+
+The specification section will look like this this is also there in the technical sheet
+
+Documentation Section  Accessories Section  Accessories will be dynamically displayed based on country wise sheet Each product will have:
+
+Short Description (as per country-specific details)
+
+APN Number
+
+Get a Quote button for purchasing or inquiries.
+
+End-of-Page CTA (Call to Action) Section
+
+Requirement: Add a “Get Your Quote” section at the end of the product page, similar to the reference design.Content Structure:
+
+Heading: Get Your Quote
+
+Sub-heading: Product Name (Dynamic – based on page)
+
+CTA Button: Request Your Quote Today
+
+Design & Behavior:
+
+The section should be clean, centered, and visually highlighted.
+
+CTA button should be in green color (as per brand theme).
+
+Product name should dynamically change based on the product page.
+
+Optional: Include certification icons (if applicable).
+
+Purpose: To encourage users to take action and easily request a quote after viewing product details.
+
+Recently Viewed Products
+
+Requirement: A section needs to be added to display a list of recently viewed products.
+
+Description: This section will show products that the user has previously viewed, enabling quick access and improving user experience.breadcrumb navigation displayed below the product hero section should be fully clickable.
+
+Example:
+
+Home > Laboratory Weighing > Laboratory Balances > Microbalance
+
+Functionality:
+
+Each breadcrumb level should redirect the user to its respective page when clicked.
+
+Users should be able to navigate directly to any parent category page.
+
+Example:
+
+Clicking Home → Redirects to Home page.
+
+Clicking Laboratory Weighing → Redirects to Laboratory Weighing category page.
+
+Clicking Laboratory Balances → Redirects to Laboratory Balances listing page.
+
+Clicking Microbalance → Remains on the current product category/page.
+
+Technical Content Slider
+
+The technical content section will contain eight feature points/cards displayed in a horizontal slider format.
+
+Functionality:
+
+Users can slide through the technical content points using the navigation control.
+
+Initially, the right navigation arrow should be visible to indicate more content is available.
+
+When the user clicks the right arrow, the content should slide to the next points and the left arrow should appear to allow backward navigation.
+
+Users should be able to move both forward and backward through all eight technical content points.
+
+Specifications Section
+
+The specifications displayed on the product page will be taken from the Technical Sheet.
+
+Specifications will be model-specific and only the specifications related to the selected product model should be displayed.
+
+Example: When the user opens Microbalance AXR 2MA, only AXR 2MA specifications should appear.
+
+Accordion Functionality:
+
+The Specifications section should be expandable/collapsible using the up/down arrow icon placed beside the section heading.
+
+By default, the section can be displayed in collapsed or expanded form as per design requirement.
+
+Clicking the arrow should:
+
+Expand → Display complete specifications table.
+
+Collapse → Hide the specifications table.
+
+Other Sections:
+
+The same accordion functionality should be available for:
+
+Specifications
+
+Documentation
+
+AccessoriesgDocumentation Section
+
+The documentation section will contain three types of documents for each product segment:
+
+1. Datasheet
+
+Product datasheet will be available in PDF format.
+
+Users can download the datasheet directly from the website.
+
+Contains complete product specifications, features, and technical details.
+
+2. User Manual
+
+Product user manual will be available in PDF format.
+
+Users can download the manual for installation, operation procedures, features, and maintenance guidelines.
+
+3. Service Manual
+
+Service manual will also be available in PDF format.
+
+The service manual will be password protected and access will be provided only to authorized dealers/customers.
+
+Password can be shared by ACZET when required.
+
+The password should be manageable through the admin portal, allowing ACZET to update/change the password anytime in the future.
+
+Documentation Section
+
+The documentation section will contain three types of documents for each product segment:
+
+1. Datasheet
+
+Product datasheet will be available in PDF format.
+
+Users can download the datasheet directly from the website.
+
+Contains complete product specifications, features, and technical details.
+
+2. User Manual
+
+Product user manual will be available in PDF format.
+
+Users can download the manual for installation, operation procedures, features, and maintenance guidelines.
+
+3. Service Manual
+
+Service manual will also be available in PDF format.
+
+The service manual will be password protected and access will be provided only to authorized dealers/customers.
+
+Password can be shared by ACZET when required.
+
+The password should be manageable through the admin portal, allowing ACZET to update/change the password anytime in the future.
+
+Accessories Section
+
+The accessories section will display all compatible accessories related to the selected product.
+
+Accessories should be product-specific and only the compatible accessories should appear for that particular model.
+
+Each accessory item will contain:
+
+Product image
+
+Accessory name
+
+Short description
+
+APN/Material Number
+
+Example:
+
+Anti Vibration Weighing Table VRD - AVT 600 Description: The anti-vibration weighing table provides a stable and durable platform for precision balances, minimizing vibrations and ensuring accurate results.
+
+APN No: XXXX
+
+Recently Viewed Products
+
+A Recently Viewed Products section will be displayed below the accessories section.
+
+This section will automatically show products that the user has previously viewed.
+
+It helps users quickly return to previously visited products.
+
+Each product card will display:
+
+Product image
+
+Product category/name
+
+Clickable link to open the product page.
+
+SEO Footer Navigation
+
+A dedicated SEO Footer Navigation section will be added before the website footer.
+
+This section will contain important product/category links to improve website navigation and search engine visibility.
+
+Purpose:
+
+Improve SEO ranking.
+
+Create better internal linking between product categories.
+
+Help users easily discover related products.
+
+Example categories:
+
+Laboratory Balance
+
+Analytical Balance
+
+Microbalances
+
+Moisture Balances
+
+All links should redirect users to their respective category/product pages.
+
+Website Footer
+
+The footer section will contain:
+
+Copyright Information
+
+Example:
+
+© ACZET PVT. LTD. All Rights Reserved
+
+Display company copyright information.
+
+Automatically update the year if required.
+
+ACZET Logo
+
+Display ACZET company logo at the bottom center.
+
+Logo should maintain proper branding and visibility.
+
+Clicking the logo should redirect users to the homepage.
+
+_________________________________________________________________________________
+
+Remarks :-

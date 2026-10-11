@@ -1,0 +1,1310 @@
+[
+  {
+    "row": 2,
+    "category": "Laboratory Balances",
+    "subcategory": "Microbalances",
+    "model": "AXR 2UA"
+  },
+  {
+    "row": 3,
+    "category": "Laboratory Balances",
+    "subcategory": "Microbalances",
+    "model": "AXR 2MA"
+  },
+  {
+    "row": 4,
+    "category": "Laboratory Balances",
+    "subcategory": "Microbalances",
+    "model": "AXR 6MA"
+  },
+  {
+    "row": 5,
+    "category": "Laboratory Balances",
+    "subcategory": "Microbalances",
+    "model": "AXR 11MA"
+  },
+  {
+    "row": 6,
+    "category": "Laboratory Balances",
+    "subcategory": "Microbalances",
+    "model": "AXR 2MF"
+  },
+  {
+    "row": 7,
+    "category": "Laboratory Balances",
+    "subcategory": "Microbalances",
+    "model": "AXR 5MF"
+  },
+  {
+    "row": 8,
+    "category": "Laboratory Balances",
+    "subcategory": "Microbalances",
+    "model": "AXR 6MF"
+  },
+  {
+    "row": 9,
+    "category": "Laboratory Balances",
+    "subcategory": "Microbalances",
+    "model": "AXR 11MP"
+  },
+  {
+    "row": 10,
+    "category": "Laboratory Balances",
+    "subcategory": "Microbalances",
+    "model": "AXR 6MS"
+  },
+  {
+    "row": 11,
+    "category": "Laboratory Balances",
+    "subcategory": "Microbalances",
+    "model": "CM 2"
+  },
+  {
+    "row": 12,
+    "category": "Laboratory Balances",
+    "subcategory": "Microbalances",
+    "model": "CM 5"
+  },
+  {
+    "row": 13,
+    "category": "Laboratory Balances",
+    "subcategory": "Microbalances",
+    "model": "CM 6"
+  },
+  {
+    "row": 14,
+    "category": "Laboratory Balances",
+    "subcategory": "Microbalances",
+    "model": "CM 11"
+  },
+  {
+    "row": 15,
+    "category": "Laboratory Balances",
+    "subcategory": "Microbalances",
+    "model": "CM 2F"
+  },
+  {
+    "row": 16,
+    "category": "Laboratory Balances",
+    "subcategory": "Microbalances",
+    "model": "CM 5F"
+  },
+  {
+    "row": 17,
+    "category": "Laboratory Balances",
+    "subcategory": "Microbalances",
+    "model": "CM 6F"
+  },
+  {
+    "row": 18,
+    "category": "Laboratory Balances",
+    "subcategory": "Microbalances",
+    "model": "CM 11F"
+  },
+  {
+    "row": 19,
+    "category": "Laboratory Balances",
+    "subcategory": "Microbalances",
+    "model": "CM 11P"
+  },
+  {
+    "row": 20,
+    "category": "Laboratory Balances",
+    "subcategory": "Analytical Balances",
+    "model": "ALT 285C"
+  },
+  {
+    "row": 21,
+    "category": "Laboratory Balances",
+    "subcategory": "Analytical Balances",
+    "model": "ALT 64C"
+  },
+  {
+    "row": 22,
+    "category": "Laboratory Balances",
+    "subcategory": "Analytical Balances",
+    "model": "ALT 124C"
+  },
+  {
+    "row": 23,
+    "category": "Laboratory Balances",
+    "subcategory": "Analytical Balances",
+    "model": "ALT 224C"
+  },
+  {
+    "row": 24,
+    "category": "Laboratory Balances",
+    "subcategory": "Analytical Balances",
+    "model": "ALT 324C"
+  },
+  {
+    "row": 25,
+    "category": "Laboratory Balances",
+    "subcategory": "Analytical Balances",
+    "model": "ALT 64"
+  },
+  {
+    "row": 26,
+    "category": "Laboratory Balances",
+    "subcategory": "Analytical Balances",
+    "model": "ALT 124"
+  },
+  {
+    "row": 27,
+    "category": "Laboratory Balances",
+    "subcategory": "Analytical Balances",
+    "model": "ALT 224"
+  },
+  {
+    "row": 28,
+    "category": "Laboratory Balances",
+    "subcategory": "Analytical Balances",
+    "model": "CY 205C"
+  },
+  {
+    "row": 29,
+    "category": "Laboratory Balances",
+    "subcategory": "Analytical Balances",
+    "model": "CY 285C"
+  },
+  {
+    "row": 30,
+    "category": "Laboratory Balances",
+    "subcategory": "Analytical Balances",
+    "model": "CY 64C"
+  },
+  {
+    "row": 31,
+    "category": "Laboratory Balances",
+    "subcategory": "Analytical Balances",
+    "model": "CY 124C"
+  },
+  {
+    "row": 32,
+    "category": "Laboratory Balances",
+    "subcategory": "Analytical Balances",
+    "model": "CY 224C"
+  },
+  {
+    "row": 33,
+    "category": "Laboratory Balances",
+    "subcategory": "Analytical Balances",
+    "model": "CY 314C"
+  },
+  {
+    "row": 34,
+    "category": "Laboratory Balances",
+    "subcategory": "Analytical Balances",
+    "model": "CY 64"
+  },
+  {
+    "row": 35,
+    "category": "Laboratory Balances",
+    "subcategory": "Analytical Balances",
+    "model": "CY 124"
+  },
+  {
+    "row": 36,
+    "category": "Laboratory Balances",
+    "subcategory": "Analytical Balances",
+    "model": "CY 224"
+  },
+  {
+    "row": 37,
+    "category": "Laboratory Balances",
+    "subcategory": "Analytical Balances",
+    "model": "CY 224CP"
+  },
+  {
+    "row": 38,
+    "category": "Laboratory Balances",
+    "subcategory": "Analytical Balances",
+    "model": "CY 224FC"
+  },
+  {
+    "row": 39,
+    "category": "Laboratory Balances",
+    "subcategory": "Analytical Balances",
+    "model": "CY 224F"
+  },
+  {
+    "row": 40,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "ALT 223C"
+  },
+  {
+    "row": 41,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "ALT 513C"
+  },
+  {
+    "row": 42,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "ALT 1003C"
+  },
+  {
+    "row": 43,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "ALT 223"
+  },
+  {
+    "row": 44,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "ALT 513"
+  },
+  {
+    "row": 45,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "ALT 1003"
+  },
+  {
+    "row": 46,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 223C"
+  },
+  {
+    "row": 47,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 323C"
+  },
+  {
+    "row": 48,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 513C"
+  },
+  {
+    "row": 49,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 723C"
+  },
+  {
+    "row": 50,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 1003C"
+  },
+  {
+    "row": 51,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 2003C"
+  },
+  {
+    "row": 52,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 3003C"
+  },
+  {
+    "row": 53,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 223"
+  },
+  {
+    "row": 54,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 323"
+  },
+  {
+    "row": 55,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 513"
+  },
+  {
+    "row": 56,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 723"
+  },
+  {
+    "row": 57,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 1003"
+  },
+  {
+    "row": 58,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 513FC"
+  },
+  {
+    "row": 59,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 513F"
+  },
+  {
+    "row": 60,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "ALT 3102C"
+  },
+  {
+    "row": 61,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "ALT 6102C"
+  },
+  {
+    "row": 62,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "AXR 10K2HC"
+  },
+  {
+    "row": 63,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "AXR 12K2HC"
+  },
+  {
+    "row": 64,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "ALT 3102"
+  },
+  {
+    "row": 65,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "ALT 6102"
+  },
+  {
+    "row": 66,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 1202C"
+  },
+  {
+    "row": 67,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 2202C"
+  },
+  {
+    "row": 68,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 3102C"
+  },
+  {
+    "row": 69,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 4102C"
+  },
+  {
+    "row": 70,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 6102C"
+  },
+  {
+    "row": 71,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY10002HC"
+  },
+  {
+    "row": 72,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY12002HC"
+  },
+  {
+    "row": 73,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 1202"
+  },
+  {
+    "row": 74,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 2202"
+  },
+  {
+    "row": 75,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 3102"
+  },
+  {
+    "row": 76,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 4102"
+  },
+  {
+    "row": 77,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 6102"
+  },
+  {
+    "row": 78,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 4102F"
+  },
+  {
+    "row": 79,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "ALT 3101C"
+  },
+  {
+    "row": 80,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "ALT 6101C"
+  },
+  {
+    "row": 81,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "ALT 8101C"
+  },
+  {
+    "row": 82,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "ALT 3101"
+  },
+  {
+    "row": 83,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "ALT 6101"
+  },
+  {
+    "row": 84,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "ALT 8101"
+  },
+  {
+    "row": 85,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 3101C"
+  },
+  {
+    "row": 86,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 6101C"
+  },
+  {
+    "row": 87,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 10001C"
+  },
+  {
+    "row": 88,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 3101"
+  },
+  {
+    "row": 89,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 6101"
+  },
+  {
+    "row": 90,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 10001"
+  },
+  {
+    "row": 91,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "AXR 15K1HC"
+  },
+  {
+    "row": 92,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "AXR 35K1HC"
+  },
+  {
+    "row": 93,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "AXR 60K0HC"
+  },
+  {
+    "row": 94,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "AXR 15K1H"
+  },
+  {
+    "row": 95,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "AXR 35K1H"
+  },
+  {
+    "row": 96,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "AXR 60K0H"
+  },
+  {
+    "row": 97,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 15001HC"
+  },
+  {
+    "row": 98,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 25001HC"
+  },
+  {
+    "row": 99,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 35001HC"
+  },
+  {
+    "row": 100,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 50001HC"
+  },
+  {
+    "row": 101,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 60000HC"
+  },
+  {
+    "row": 102,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 15001H"
+  },
+  {
+    "row": 103,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 25001H"
+  },
+  {
+    "row": 104,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 35001H"
+  },
+  {
+    "row": 105,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CY 60000H"
+  },
+  {
+    "row": 106,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CG 203L"
+  },
+  {
+    "row": 107,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CG 303L"
+  },
+  {
+    "row": 108,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CZ 602"
+  },
+  {
+    "row": 109,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CZ 1202"
+  },
+  {
+    "row": 110,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CZ 1200"
+  },
+  {
+    "row": 111,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CZ 6000H"
+  },
+  {
+    "row": 112,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CG 302"
+  },
+  {
+    "row": 113,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CG 602"
+  },
+  {
+    "row": 114,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CG 602L"
+  },
+  {
+    "row": 115,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CG 1202L"
+  },
+  {
+    "row": 116,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CG 2002L"
+  },
+  {
+    "row": 117,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CG 3001L"
+  },
+  {
+    "row": 118,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CG 6001L"
+  },
+  {
+    "row": 119,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CG 10001L"
+  },
+  {
+    "row": 120,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CG 15001L"
+  },
+  {
+    "row": 121,
+    "category": "Laboratory Balances",
+    "subcategory": "Precision Balances and Scales",
+    "model": "CG 30001L"
+  },
+  {
+    "row": 122,
+    "category": "Laboratory Balances",
+    "subcategory": "Density Scales",
+    "model": "CY 204GT"
+  },
+  {
+    "row": 123,
+    "category": "Laboratory Balances",
+    "subcategory": "Density Scales",
+    "model": "CY 613GT"
+  },
+  {
+    "row": 124,
+    "category": "Laboratory Balances",
+    "subcategory": "Density Scales",
+    "model": "CY 3102GT"
+  },
+  {
+    "row": 125,
+    "category": "Laboratory Balances",
+    "subcategory": "Moisture Analyzers",
+    "model": "MB 54"
+  },
+  {
+    "row": 126,
+    "category": "Laboratory Balances",
+    "subcategory": "Moisture Analyzers",
+    "model": "MB 50"
+  },
+  {
+    "row": 127,
+    "category": "Laboratory Balances",
+    "subcategory": "Moisture Analyzers",
+    "model": "MB 120"
+  },
+  {
+    "row": 128,
+    "category": "Laboratory Balances",
+    "subcategory": "Moisture Analyzers",
+    "model": "MB 200"
+  },
+  {
+    "row": 130,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "108-22"
+  },
+  {
+    "row": 131,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "108-04"
+  },
+  {
+    "row": 132,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "103-07"
+  },
+  {
+    "row": 133,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "103-08"
+  },
+  {
+    "row": 134,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "118-22"
+  },
+  {
+    "row": 135,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "118-04"
+  },
+  {
+    "row": 136,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "114-07"
+  },
+  {
+    "row": 137,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "114-08"
+  },
+  {
+    "row": 138,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "123-22"
+  },
+  {
+    "row": 139,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "123-04"
+  },
+  {
+    "row": 140,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "124-07"
+  },
+  {
+    "row": 141,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "124-08"
+  },
+  {
+    "row": 142,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "108-09"
+  },
+  {
+    "row": 143,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "108-10"
+  },
+  {
+    "row": 144,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "108-11"
+  },
+  {
+    "row": 145,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "108-12"
+  },
+  {
+    "row": 146,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "108-13"
+  },
+  {
+    "row": 147,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "108-14"
+  },
+  {
+    "row": 148,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "117-09"
+  },
+  {
+    "row": 149,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "117-10"
+  },
+  {
+    "row": 150,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "117-11"
+  },
+  {
+    "row": 151,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "117-12"
+  },
+  {
+    "row": 152,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "117-13"
+  },
+  {
+    "row": 153,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "117-14"
+  },
+  {
+    "row": 154,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "117-16"
+  },
+  {
+    "row": 155,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "126-09"
+  },
+  {
+    "row": 156,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "126-10"
+  },
+  {
+    "row": 157,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "126-11"
+  },
+  {
+    "row": 158,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "126-12"
+  },
+  {
+    "row": 159,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "126-13"
+  },
+  {
+    "row": 160,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "126-14"
+  },
+  {
+    "row": 161,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "126-15"
+  },
+  {
+    "row": 162,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "126-16"
+  },
+  {
+    "row": 163,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "147-13"
+  },
+  {
+    "row": 164,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "147-14"
+  },
+  {
+    "row": 165,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "147-15"
+  },
+  {
+    "row": 166,
+    "category": "Laboratory Balances",
+    "subcategory": "Test Weights",
+    "model": "147-16"
+  },
+  {
+    "row": 167,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "TWT-50"
+  },
+  {
+    "row": 168,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "TWT-200"
+  },
+  {
+    "row": 169,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "TWF-1"
+  },
+  {
+    "row": 170,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "TWH-2"
+  },
+  {
+    "row": 171,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "TWH-5"
+  },
+  {
+    "row": 172,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "TWH-10"
+  },
+  {
+    "row": 173,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "TWH-20"
+  },
+  {
+    "row": 174,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "CPR 03"
+  },
+  {
+    "row": 175,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "CPR 02"
+  },
+  {
+    "row": 176,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "CLP 04"
+  },
+  {
+    "row": 177,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "CBR 01"
+  },
+  {
+    "row": 178,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "CI 01"
+  },
+  {
+    "row": 179,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "VRD-AVT"
+  },
+  {
+    "row": 180,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "VRD 03"
+  },
+  {
+    "row": 181,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "SRD 01"
+  },
+  {
+    "row": 182,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "CDK 01-L"
+  },
+  {
+    "row": 183,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "CDK 01"
+  },
+  {
+    "row": 184,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "CET 01"
+  },
+  {
+    "row": 185,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "LBA-X 13"
+  },
+  {
+    "row": 186,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "LBA-X 09"
+  },
+  {
+    "row": 187,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "CTK-X 01"
+  },
+  {
+    "row": 188,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "CMD 40"
+  },
+  {
+    "row": 189,
+    "category": "Laboratory Balances",
+    "subcategory": "Accessories for Laboratory weighing",
+    "model": "GFF 100"
+  },
+  {
+    "row": 531,
+    "category": "Laboratory Instruments",
+    "subcategory": "Refractometers",
+    "model": "2 AWAJ"
+  },
+  {
+    "row": 532,
+    "category": "Laboratory Instruments",
+    "subcategory": "Refractometers",
+    "model": "ARM-2S"
+  },
+  {
+    "row": 533,
+    "category": "Laboratory Instruments",
+    "subcategory": "Refractometers",
+    "model": "ARM-Z"
+  },
+  {
+    "row": 535,
+    "category": "Laboratory Instruments",
+    "subcategory": "Polarimeters",
+    "model": "APM 4"
+  },
+  {
+    "row": 536,
+    "category": "Laboratory Instruments",
+    "subcategory": "Polarimeters",
+    "model": "APM 2"
+  },
+  {
+    "row": 537,
+    "category": "Laboratory Instruments",
+    "subcategory": "Polarimeters",
+    "model": "APM 3"
+  },
+  {
+    "row": 538,
+    "category": "Laboratory Instruments",
+    "subcategory": "Visual Colorimeter",
+    "model": "AT 2"
+  },
+  {
+    "row": 539,
+    "category": "Laboratory Instruments",
+    "subcategory": "Ultrasonic Milk Analyzers",
+    "model": "MILKPR0+"
+  },
+  {
+    "row": 541,
+    "category": "Laboratory Instruments",
+    "subcategory": "Rotational Viscometer",
+    "model": "VISCO L"
+  },
+  {
+    "row": 542,
+    "category": "Laboratory Instruments",
+    "subcategory": "Rotational Viscometer",
+    "model": "VISCO R"
+  },
+  {
+    "row": 543,
+    "category": "Laboratory Instruments",
+    "subcategory": "Rotational Viscometer",
+    "model": "VISCO H"
+  },
+  {
+    "row": 546,
+    "category": "Laboratory Instruments",
+    "subcategory": "Tablet Hardness Tester",
+    "model": "ATH 500"
+  },
+  {
+    "row": 548,
+    "category": "Laboratory Instruments",
+    "subcategory": "Ultrasonic Probe Sonicator",
+    "model": "APU 500"
+  },
+  {
+    "row": 550,
+    "category": "Laboratory Instruments",
+    "subcategory": "Ultrasonic Cleaners",
+    "model": "CUB 2"
+  },
+  {
+    "row": 551,
+    "category": "Laboratory Instruments",
+    "subcategory": "Ultrasonic Cleaners",
+    "model": "CUB 5"
+  },
+  {
+    "row": 552,
+    "category": "Laboratory Instruments",
+    "subcategory": "Ultrasonic Cleaners",
+    "model": "CU 10"
+  },
+  {
+    "row": 553,
+    "category": "Laboratory Instruments",
+    "subcategory": "Ultrasonic Cleaners",
+    "model": "CUB 15"
+  },
+  {
+    "row": 554,
+    "category": "Laboratory Instruments",
+    "subcategory": "Ultrasonic Cleaners",
+    "model": "CUB 22"
+  },
+  {
+    "row": 555,
+    "category": "Laboratory Instruments",
+    "subcategory": "Ultrasonic Cleaners",
+    "model": "CUB 30"
+  },
+  {
+    "row": 556,
+    "category": "Laboratory Instruments",
+    "subcategory": "Ultrasonic Cleaners",
+    "model": "CUB 60"
+  },
+  {
+    "row": 557,
+    "category": "Laboratory Instruments",
+    "subcategory": "Ultrasonic Cleaners",
+    "model": "CUB 100"
+  },
+  {
+    "row": 559,
+    "category": "Laboratory Instruments",
+    "subcategory": "ICE Flake Maker",
+    "model": "AMS 30"
+  },
+  {
+    "row": 560,
+    "category": "Laboratory Instruments",
+    "subcategory": "ICE Flake Maker",
+    "model": "AMS 50"
+  },
+  {
+    "row": 561,
+    "category": "Laboratory Instruments",
+    "subcategory": "ICE Flake Maker",
+    "model": "AMS 100"
+  },
+  {
+    "row": 562,
+    "category": "Laboratory Instruments",
+    "subcategory": "ICE Flake Maker",
+    "model": "AMS 200"
+  },
+  {
+    "row": 563,
+    "category": "Laboratory Instruments",
+    "subcategory": "Accessories for Laboratory Instruments",
+    "model": "CPR 02"
+  },
+  {
+    "row": 564,
+    "category": "Laboratory Instruments",
+    "subcategory": "Accessories for Laboratory Instruments",
+    "model": "RWB"
+  },
+  {
+    "row": 565,
+    "category": "Laboratory Instruments",
+    "subcategory": "Accessories for Laboratory Instruments",
+    "model": "126-12"
+  },
+  {
+    "row": 566,
+    "category": "Laboratory Instruments",
+    "subcategory": "Accessories for Laboratory Instruments",
+    "model": "APM"
+  },
+  {
+    "row": 567,
+    "category": "Laboratory Instruments",
+    "subcategory": "Accessories for Laboratory Instruments",
+    "model": "LCP"
+  },
+  {
+    "row": 568,
+    "category": "Laboratory Instruments",
+    "subcategory": "Accessories for Laboratory Instruments",
+    "model": "PROBE"
+  }
+]

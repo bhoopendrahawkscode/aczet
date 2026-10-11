@@ -1,0 +1,750 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use App\Models\SiteSetting;
+
+class SiteSettingSeeder extends Seeder
+{
+    public function run(): void
+    {
+        $settings = [
+            // General & Header
+            [
+                'key' => 'site_name',
+                'value' => 'Aczet Metrology',
+                'group' => 'general',
+                'label' => 'Website / Company Name',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'site_tagline',
+                'value' => 'Precision Metrology & High Accuracy Weighing Systems',
+                'group' => 'general',
+                'label' => 'Header Tagline / Subtitle',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'header_topbar_badge',
+                'value' => 'WORLDWIDE DISPATCH',
+                'group' => 'general',
+                'label' => 'Header Topbar Badge Text',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'header_topbar_text',
+                'value' => 'ISO 9001:2015 & OIML Certified Metrology Systems | Direct Factory Dispatch',
+                'group' => 'general',
+                'label' => 'Header Topbar Announcement',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'header_topbar_link',
+                'value' => '/products',
+                'group' => 'general',
+                'label' => 'Header Topbar Link',
+                'type' => 'url',
+            ],
+            [
+                'key' => 'header_cta_label',
+                'value' => 'Request RFQ',
+                'group' => 'general',
+                'label' => 'Header CTA Button Label',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'header_cta_link',
+                'value' => '/quote-cart',
+                'group' => 'general',
+                'label' => 'Header CTA Button Link',
+                'type' => 'url',
+            ],
+
+            // Contact & Helpdesk
+            [
+                'key' => 'phone_primary',
+                'value' => '+91 22 4141 5555',
+                'group' => 'contact',
+                'label' => 'Primary Contact Phone',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'phone_support',
+                'value' => '+91 22 4141 5500',
+                'group' => 'contact',
+                'label' => 'Technical Support Phone',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'email_sales',
+                'value' => 'sales@aczet.com',
+                'group' => 'contact',
+                'label' => 'Sales Inquiries Email',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'email_support',
+                'value' => 'support@aczet.com',
+                'group' => 'contact',
+                'label' => 'Customer Support Email',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'whatsapp_number',
+                'value' => '+919820000000',
+                'group' => 'contact',
+                'label' => 'WhatsApp Support Number (with country code)',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'working_hours',
+                'value' => 'Monday - Friday: 9:00 AM - 6:30 PM (IST)',
+                'group' => 'contact',
+                'label' => 'Working / Support Hours',
+                'type' => 'text',
+            ],
+
+            // Offices & Addresses
+            [
+                'key' => 'address_hq',
+                'value' => 'Aczet Metrology Pvt. Ltd., 201, Commercial Center, Mumbai 400069, Maharashtra, India',
+                'group' => 'address',
+                'label' => 'Global Headquarters Address (India)',
+                'type' => 'textarea',
+            ],
+            [
+                'key' => 'address_technical_center',
+                'value' => 'Aczet European Technical Center, Neugasse 29, 8005 Zürich, Switzerland',
+                'group' => 'address',
+                'label' => 'European Technical Center (Switzerland)',
+                'type' => 'textarea',
+            ],
+            [
+                'key' => 'address_usa',
+                'value' => 'Aczet America Inc., 1250 E Business Center Dr, Mount Prospect, IL 60056, USA',
+                'group' => 'address',
+                'label' => 'Americas Regional Office (USA)',
+                'type' => 'textarea',
+            ],
+            [
+                'key' => 'address_thailand',
+                'value' => 'Aczet Southeast Asia, 88/12 Rama IX Road, Huai Khwang, Bangkok 10310, Thailand',
+                'group' => 'address',
+                'label' => 'Southeast Asia Hub (Thailand)',
+                'type' => 'textarea',
+            ],
+
+            // Homepage Metrics & Statistics
+            [
+                'key' => 'metric_experience_years',
+                'value' => '40+',
+                'group' => 'metrics',
+                'label' => 'Experience Years Stat',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'metric_experience_label',
+                'value' => 'Years of Metrology Excellence',
+                'group' => 'metrics',
+                'label' => 'Experience Years Caption',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'metric_countries_count',
+                'value' => '95+',
+                'group' => 'metrics',
+                'label' => 'Export Countries Stat',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'metric_countries_label',
+                'value' => 'Worldwide Export Destinations',
+                'group' => 'metrics',
+                'label' => 'Export Countries Caption',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'metric_installed_units',
+                'value' => '150,000+',
+                'group' => 'metrics',
+                'label' => 'Installed Instruments Stat',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'metric_installed_label',
+                'value' => 'Global Active Installations',
+                'group' => 'metrics',
+                'label' => 'Installed Instruments Caption',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'metric_calibration_centers',
+                'value' => '12+',
+                'group' => 'metrics',
+                'label' => 'Calibration Hubs Stat',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'metric_calibration_label',
+                'value' => 'ISO 17025 Certified Centers',
+                'group' => 'metrics',
+                'label' => 'Calibration Hubs Caption',
+                'type' => 'text',
+            ],
+
+            // Feature Pillars & Technology Highlights
+            [
+                'key' => 'pillar_1_title',
+                'value' => 'Monobloc EMFR Technology',
+                'group' => 'features',
+                'label' => 'Pillar 1 Title',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'pillar_1_desc',
+                'value' => 'Single-block electromagnetic force restoration sensor delivering nanogram-level repeatability and thermal stability.',
+                'group' => 'features',
+                'label' => 'Pillar 1 Description',
+                'type' => 'textarea',
+            ],
+            [
+                'key' => 'pillar_2_title',
+                'value' => 'isoCAL Automated Calibration',
+                'group' => 'features',
+                'label' => 'Pillar 2 Title',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'pillar_2_desc',
+                'value' => 'Internal calibration weights trigger automatically based on temperature changes and scheduled intervals.',
+                'group' => 'features',
+                'label' => 'Pillar 2 Description',
+                'type' => 'textarea',
+            ],
+            [
+                'key' => 'pillar_3_title',
+                'value' => '21 CFR Part 11 Compliance',
+                'group' => 'features',
+                'label' => 'Pillar 3 Title',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'pillar_3_desc',
+                'value' => 'Integrated audit trail, tamper-proof user management, and electronic signatures for pharmaceutical compliance.',
+                'group' => 'features',
+                'label' => 'Pillar 3 Description',
+                'type' => 'textarea',
+            ],
+            [
+                'key' => 'pillar_4_title',
+                'value' => 'Universal Connectivity',
+                'group' => 'features',
+                'label' => 'Pillar 4 Title',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'pillar_4_desc',
+                'value' => 'Ethernet, RS232, USB, and Wi-Fi connectivity for direct LIMS, ERP, and precision PLC automation networks.',
+                'group' => 'features',
+                'label' => 'Pillar 4 Description',
+                'type' => 'textarea',
+            ],
+
+            // Footer & Legal
+            [
+                'key' => 'footer_about_text',
+                'value' => 'Aczet has pioneered the future of precision metrology for over 35 years. Engineered with Swiss-grade monobloc load cells and German electromagnetic force restoration technology, our instruments serve pharmaceutical, research, industrial, and precious metals laboratories in over 95 nations worldwide.',
+                'group' => 'footer',
+                'label' => 'Footer About Company Paragraph',
+                'type' => 'textarea',
+            ],
+            [
+                'key' => 'footer_copyright',
+                'value' => '© 2026 Aczet Metrology Pvt. Ltd. All Rights Reserved. ISO 9001:2015 & OIML Certified Metrology Systems.',
+                'group' => 'footer',
+                'label' => 'Footer Copyright Statement',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'footer_iso_badge',
+                'value' => 'ISO 9001:2015 & OIML R76 Certified',
+                'group' => 'footer',
+                'label' => 'Footer Certification Badge',
+                'type' => 'text',
+            ],
+
+            // Social Media Links
+            [
+                'key' => 'social_linkedin',
+                'value' => 'https://www.linkedin.com/company/aczet',
+                'group' => 'social',
+                'label' => 'LinkedIn Profile URL',
+                'type' => 'url',
+            ],
+            [
+                'key' => 'social_youtube',
+                'value' => 'https://www.youtube.com/@aczetmetrology',
+                'group' => 'social',
+                'label' => 'YouTube Channel URL',
+                'type' => 'url',
+            ],
+            [
+                'key' => 'social_twitter',
+                'value' => 'https://twitter.com/aczet_metrology',
+                'group' => 'social',
+                'label' => 'Twitter / X Profile URL',
+                'type' => 'url',
+            ],
+            [
+                'key' => 'social_facebook',
+                'value' => 'https://www.facebook.com/aczetmetrology',
+                'group' => 'social',
+                'label' => 'Facebook Page URL',
+                'type' => 'url',
+            ],
+            [
+                'key' => 'social_instagram',
+                'value' => 'https://www.instagram.com/aczetmetrology',
+                'group' => 'social',
+                'label' => 'Instagram Profile URL',
+                'type' => 'url',
+            ],
+
+            // About Us Page CMS
+            [
+                'key' => 'about_hero_heading',
+                'value' => 'About Aczet',
+                'group' => 'about',
+                'label' => 'About Us Hero Heading',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'about_hero_subheading',
+                'value' => 'Decades of engineering excellence delivering certified precision weighing, analytical instruments, XRF metal analysis, and laser processing technology to global industries.',
+                'group' => 'about',
+                'label' => 'About Us Hero Subheading',
+                'type' => 'textarea',
+            ],
+            [
+                'key' => 'about_overview_eyebrow',
+                'value' => 'Corporate Overview',
+                'group' => 'about',
+                'label' => 'Corporate Overview Eyebrow',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'about_overview_title',
+                'value' => 'Precision Engineering. Global Trust.',
+                'group' => 'about',
+                'label' => 'Corporate Overview Title',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'about_overview_p1',
+                'value' => 'Aczet is a premier manufacturer and global supplier of high-precision weighing balances, laboratory instruments, XRF gold testing and coating thickness analyzers, and precision laser systems. Combining German metrological concepts with world-class production capabilities, Aczet equips pharmaceutical laboratories, jewellery manufacturing clusters, universities, and heavy industrial plants with dependable accuracy.',
+                'group' => 'about',
+                'label' => 'Corporate Overview Paragraph 1',
+                'type' => 'textarea',
+            ],
+            [
+                'key' => 'about_overview_p2',
+                'value' => 'Our instruments are deployed in over 65 countries, supported by an established international distributor network, dedicated application engineering centers, and ISO/IEC 17025 accredited calibration labs. Whether measuring a fraction of a microgram in formulation research or screening alloy composition in precious metal refineries, Aczet delivers confidence in every measurement.',
+                'group' => 'about',
+                'label' => 'Corporate Overview Paragraph 2',
+                'type' => 'textarea',
+            ],
+            [
+                'key' => 'about_stat_1_val',
+                'value' => '65+',
+                'group' => 'about',
+                'label' => 'About Stat 1 Value (e.g. 65+)',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'about_stat_1_label',
+                'value' => 'Countries Served',
+                'group' => 'about',
+                'label' => 'About Stat 1 Label',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'about_stat_1_sub',
+                'value' => 'Across 5 continents',
+                'group' => 'about',
+                'label' => 'About Stat 1 Subtitle',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'about_stat_2_val',
+                'value' => '500+',
+                'group' => 'about',
+                'label' => 'About Stat 2 Value (e.g. 500+)',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'about_stat_2_label',
+                'value' => 'Certified Models',
+                'group' => 'about',
+                'label' => 'About Stat 2 Label',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'about_stat_2_sub',
+                'value' => 'Lab & industrial catalog',
+                'group' => 'about',
+                'label' => 'About Stat 2 Subtitle',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'about_stat_3_val',
+                'value' => '17025',
+                'group' => 'about',
+                'label' => 'About Stat 3 Value (e.g. 17025)',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'about_stat_3_label',
+                'value' => 'ISO Accredited',
+                'group' => 'about',
+                'label' => 'About Stat 3 Label',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'about_stat_3_sub',
+                'value' => 'Traceable calibration labs',
+                'group' => 'about',
+                'label' => 'About Stat 3 Subtitle',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'about_stat_4_val',
+                'value' => '25+',
+                'group' => 'about',
+                'label' => 'About Stat 4 Value (e.g. 25+)',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'about_stat_4_label',
+                'value' => 'Years Innovation',
+                'group' => 'about',
+                'label' => 'About Stat 4 Label',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'about_stat_4_sub',
+                'value' => 'Patented metrology',
+                'group' => 'about',
+                'label' => 'About Stat 4 Subtitle',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'about_trust_card_title',
+                'value' => 'ISO 17025 Calibrated',
+                'group' => 'about',
+                'label' => 'Sidebar Trust Card Title',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'about_trust_card_desc',
+                'value' => 'All Aczet weighing and metrology systems ship with factory calibration traceable to national & international standards.',
+                'group' => 'about',
+                'label' => 'Sidebar Trust Card Description',
+                'type' => 'textarea',
+            ],
+            [
+                'key' => 'about_trust_card_btn',
+                'value' => 'View Accreditations →',
+                'group' => 'about',
+                'label' => 'Sidebar Trust Card Button Label',
+                'type' => 'text',
+            ],
+
+            // Our Technology Page CMS
+            [
+                'key' => 'tech_hero_heading',
+                'value' => 'Our Technology',
+                'group' => 'about',
+                'label' => 'Our Technology Hero Heading',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_hero_subheading',
+                'value' => 'At Aczet, technology is where engineering meets application. Combining precision mechanics, advanced electronics, and intelligent software for laboratory, industrial, and jewellery workflows.',
+                'group' => 'about',
+                'label' => 'Our Technology Hero Subheading',
+                'type' => 'textarea',
+            ],
+            [
+                'key' => 'tech_intro_eyebrow',
+                'value' => 'Engineering Philosophy',
+                'group' => 'about',
+                'label' => 'Technology Philosophy Eyebrow',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_intro_title',
+                'value' => 'Where Engineering Meets Application',
+                'group' => 'about',
+                'label' => 'Technology Philosophy Title',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_intro_p1',
+                'value' => 'We combine precision engineering, advanced electronics, and intelligent software to develop high-performance solutions serving laboratory, industrial, and jewellery applications.',
+                'group' => 'about',
+                'label' => 'Technology Philosophy Paragraph 1',
+                'type' => 'textarea',
+            ],
+            [
+                'key' => 'tech_intro_p2',
+                'value' => 'Our technology portfolio brings together specialised solutions designed to address different measurement, analysis, and production requirements. From sub-microgram mass determination in sterile cleanrooms to high-energy non-destructive gold purity screening, each Aczet instrument is conceived to minimize measurement uncertainty and maximize workflow productivity.',
+                'group' => 'about',
+                'label' => 'Technology Philosophy Paragraph 2',
+                'type' => 'textarea',
+            ],
+
+            // Tech Card 1
+            [
+                'key' => 'tech_card_1_badge',
+                'value' => 'Technology 01',
+                'group' => 'about',
+                'label' => 'Tech Card 1 Badge',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_card_1_title',
+                'value' => 'Precision Weighing Technology',
+                'group' => 'about',
+                'label' => 'Tech Card 1 Title',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_card_1_subtitle',
+                'value' => 'Built around accuracy.',
+                'group' => 'about',
+                'label' => 'Tech Card 1 Subtitle',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_card_1_desc',
+                'value' => 'Our portfolio includes micro balances, semi micro balances, analytical balances, precision balances, and industrial weighing systems designed for high accuracy measurements. Powered by monobloc electromagnetic force compensation (EMFC), our load cells resist temperature variations and provide rapid settling times.',
+                'group' => 'about',
+                'label' => 'Tech Card 1 Description',
+                'type' => 'textarea',
+            ],
+            [
+                'key' => 'tech_card_1_image',
+                'value' => '/images/products/micro-balance-real.jpg',
+                'group' => 'about',
+                'label' => 'Tech Card 1 Image Path',
+                'type' => 'image',
+            ],
+            [
+                'key' => 'tech_card_1_specs',
+                'value' => 'Monobloc EMFC Sensor, 0.0001g Readability, isoCAL Internal Adjustment, FDA 21 CFR Part 11',
+                'group' => 'about',
+                'label' => 'Tech Card 1 Technical Specs (Comma-separated)',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_card_1_link_text',
+                'value' => 'View Laboratory Balances Catalog →',
+                'group' => 'about',
+                'label' => 'Tech Card 1 Link Text',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_card_1_link_url',
+                'value' => '/products?category=laboratory-balances',
+                'group' => 'about',
+                'label' => 'Tech Card 1 Link URL',
+                'type' => 'text',
+            ],
+
+            // Tech Card 2
+            [
+                'key' => 'tech_card_2_badge',
+                'value' => 'Technology 02',
+                'group' => 'about',
+                'label' => 'Tech Card 2 Badge',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_card_2_title',
+                'value' => 'XRF Metal Analysis Technology',
+                'group' => 'about',
+                'label' => 'Tech Card 2 Title',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_card_2_subtitle',
+                'value' => 'Fast analysis. Reliable insight.',
+                'group' => 'about',
+                'label' => 'Tech Card 2 Subtitle',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_card_2_desc',
+                'value' => 'ACZET XRF analyzers provide fast, non-destructive metal analysis for applications including gold purity testing and alloy identification. Equipped with high-resolution Silicon Drift Detectors (SDD) and proportional counters, our instruments accurately detect karatage, trace contaminants, and electroplated coating thickness.',
+                'group' => 'about',
+                'label' => 'Tech Card 2 Description',
+                'type' => 'textarea',
+            ],
+            [
+                'key' => 'tech_card_2_image',
+                'value' => '/images/products/gold-compact-eco.jpg',
+                'group' => 'about',
+                'label' => 'Tech Card 2 Image Path',
+                'type' => 'image',
+            ],
+            [
+                'key' => 'tech_card_2_specs',
+                'value' => 'Silicon Drift Detector (SDD), Non-Destructive Screening, Karatage Purity, Coating Thickness',
+                'group' => 'about',
+                'label' => 'Tech Card 2 Technical Specs (Comma-separated)',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_card_2_link_text',
+                'value' => 'View Gold Testing & XRF Instruments →',
+                'group' => 'about',
+                'label' => 'Tech Card 2 Link Text',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_card_2_link_url',
+                'value' => '/products?category=jewelry-machines',
+                'group' => 'about',
+                'label' => 'Tech Card 2 Link URL',
+                'type' => 'text',
+            ],
+
+            // Tech Card 3
+            [
+                'key' => 'tech_card_3_badge',
+                'value' => 'Technology 03',
+                'group' => 'about',
+                'label' => 'Tech Card 3 Badge',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_card_3_title',
+                'value' => 'Laser Technology Solutions',
+                'group' => 'about',
+                'label' => 'Tech Card 3 Title',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_card_3_subtitle',
+                'value' => 'Precision beyond measurement.',
+                'group' => 'about',
+                'label' => 'Tech Card 3 Subtitle',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_card_3_desc',
+                'value' => 'Our laser marking and laser welding systems are designed for high precision engraving, metal marking, and jewellery repair applications. Features include stereomicroscope alignment, high-energy pulse stability, fiber laser sources, and user-friendly software for hallmarking, serial numbers, and micro-welding delicate alloys.',
+                'group' => 'about',
+                'label' => 'Tech Card 3 Description',
+                'type' => 'textarea',
+            ],
+            [
+                'key' => 'tech_card_3_image',
+                'value' => '/images/products/handheld-xrf.jpg',
+                'group' => 'about',
+                'label' => 'Tech Card 3 Image Path',
+                'type' => 'image',
+            ],
+            [
+                'key' => 'tech_card_3_specs',
+                'value' => 'Fiber Laser Source, Stereomicroscope Optics, High Pulse Energy, Deep Micro-Welding',
+                'group' => 'about',
+                'label' => 'Tech Card 3 Technical Specs (Comma-separated)',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_card_3_link_text',
+                'value' => 'Explore Laser Marking & Welding Systems →',
+                'group' => 'about',
+                'label' => 'Tech Card 3 Link Text',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_card_3_link_url',
+                'value' => '/products?category=industrial-machines',
+                'group' => 'about',
+                'label' => 'Tech Card 3 Link URL',
+                'type' => 'text',
+            ],
+
+            // Tech Card 4
+            [
+                'key' => 'tech_card_4_badge',
+                'value' => 'Technology 04',
+                'group' => 'about',
+                'label' => 'Tech Card 4 Badge',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_card_4_title',
+                'value' => 'Moisture Analysis Technology',
+                'group' => 'about',
+                'label' => 'Tech Card 4 Title',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_card_4_subtitle',
+                'value' => 'Measure what cannot always be seen.',
+                'group' => 'about',
+                'label' => 'Tech Card 4 Subtitle',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_card_4_desc',
+                'value' => 'ACZET halogen moisture analyzers provide reliable moisture determination across pharmaceutical, food, chemical, and agricultural industries. Utilizing circular halogen quartz heating and real-time thermogravimetric curves, Aczet moisture balances ensure repeatable drying results with 0.001% resolution.',
+                'group' => 'about',
+                'label' => 'Tech Card 4 Description',
+                'type' => 'textarea',
+            ],
+            [
+                'key' => 'tech_card_4_image',
+                'value' => '/images/products/moisture-analyzer-real.jpg',
+                'group' => 'about',
+                'label' => 'Tech Card 4 Image Path',
+                'type' => 'image',
+            ],
+            [
+                'key' => 'tech_card_4_specs',
+                'value' => 'Circular Halogen Heating, 0.001% Readability, Live Touchscreen Curves, GLP/GMP Compliance',
+                'group' => 'about',
+                'label' => 'Tech Card 4 Technical Specs (Comma-separated)',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_card_4_link_text',
+                'value' => 'View Moisture Analyzers →',
+                'group' => 'about',
+                'label' => 'Tech Card 4 Link Text',
+                'type' => 'text',
+            ],
+            [
+                'key' => 'tech_card_4_link_url',
+                'value' => '/products?category=laboratory-balances',
+                'group' => 'about',
+                'label' => 'Tech Card 4 Link URL',
+                'type' => 'text',
+            ],
+        ];
+
+        foreach ($settings as $s) {
+            SiteSetting::updateOrCreate(
+                ['key' => $s['key']],
+                $s
+            );
+        }
+
+        SiteSetting::clearCache();
+    }
+}
+
